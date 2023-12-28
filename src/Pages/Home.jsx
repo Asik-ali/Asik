@@ -21,8 +21,8 @@ function Home() {
       <Card />
       <Newsletter />
       <Static />
-      <Feature />
       <Section />
+      <Feature />
       <Faq />
       <Testimonials />
       <Footer />
