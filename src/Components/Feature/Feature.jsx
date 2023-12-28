@@ -97,38 +97,42 @@ function Feature() {
 
     return (
         <section className="relative py-16 bg-gray-900">
-            <div className="relative z-10 max-w-screen-xl mx-auto px-4 text-gray-300 justify-between gap-24 lg:flex md:px-8 flex-col">
-                <div className=" flex flex-col lg:ps-[350px]">
-                    <h3 className="text-white text-3xl font-semibold sm:text-4xl">
-                        Personalized Learning                    </h3>
-                    <p className="mt-3">
-                        Through hands-on projects,
-                        internships, and community engagement, we aim to bridge the gap between theory and practice,
-                        empowering our students to apply their knowledge in meaningful ways.                    </p>
+            <div className="relative z-10 max-w-screen-xl mx-auto px-4 text-gray-300 lg:flex lg:gap-24 md:px-8 flex-col">
+                <div className="flex flex-col lg:items-center">
+                    <h3 className="text-white text-3xl font-semibold sm:text-4xl mb-6">
+                        Personalized Learning
+                    </h3>
+                    <p className="mt-3 mb-6">
+                        Through hands-on projects, internships, and community engagement, we
+                        aim to bridge the gap between theory and practice, empowering our
+                        students to apply their knowledge in meaningful ways.
+                    </p>
                 </div>
-                <div className="mt-12 lg:mt-0">
-                    <ul className="flex">
-                        {
-                            features.map((item, idx) => (
-                                <li key={idx} className="flex gap-x-4 ">
-                                    <div className="flex-none w-12 h-12 bg-gray-700 text-cyan-400 rounded-lg flex items-center justify-center lg:mt-2">
-                                        {item.icon}
-                                    </div>
-                                    <div className="lg:me-16">
-                                        <h4 className="text-lg text-gray-100 font-semibold">
-                                            {item.title}
-                                        </h4>
-                                        <p className="mt-3 lg:w-80">
-                                            {item.desc}
-                                        </p>
-                                    </div>
-                                </li>
-                            ))
-                        }
+                <div className="lg:flex lg:justify-end lg:mt-12">
+                    <ul className="flex flex-col lg:flex-row">
+                        {features.map((item, idx) => (
+                            <li key={idx} className="flex flex-col items-center lg:items-start  lg:flex-row lg:gap-x-3 mb-8">
+                                <div className="flex-none w-12 h-12 bg-gray-700 text-cyan-400 rounded-lg flex items-center justify-center lg:mt-2">
+                                    {item.icon}
+                                </div>
+                                <div className="lg:me-16">
+                                    <h4 className="text-lg text-gray-100 font-semibold">
+                                        {item.title}
+                                    </h4>
+                                    <p className="mt-3 lg:w-80">{item.desc}</p>
+                                </div>
+                            </li>
+                        ))}
                     </ul>
                 </div>
             </div>
-            <div className="absolute inset-0 max-w-md mx-auto h-72 blur-[118px]" style={{ background: "linear-gradient(152.92deg, rgba(192, 132, 252, 0.2) 4.54%, rgba(232, 121, 249, 0.26) 34.2%, rgba(192, 132, 252, 0.1) 77.55%)" }}></div>
+            <div
+                className="absolute inset-0 max-w-md mx-auto h-72 blur-[118px]"
+                style={{
+                    background:
+                        "linear-gradient(152.92deg, rgba(192, 132, 252, 0.2) 4.54%, rgba(232, 121, 249, 0.26) 34.2%, rgba(192, 132, 252, 0.1) 77.55%)",
+                }}
+            ></div>
         </section>
     )
 }
