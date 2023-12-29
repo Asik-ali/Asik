@@ -55,7 +55,7 @@ const Card = ({ card }) => {
                 className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110"
             ></div>
             <div className="absolute inset-0 z-10 grid place-content-center">
-                <p className="bg-gradient-to-br from-white/20 to-white/0 p-8 text-6xl font-black uppercase text-white backdrop-blur-lg">
+                <p className="bg-gradient-to-br from-white/20 to-white/0 p-8 text-6xl font-black uppercase text-white ">
                     {card.title}
                 </p>
             </div>
@@ -67,37 +67,37 @@ export default Example;
 
 const cards = [
     {
-        url: "/imgs/abstract/1.jpg",
+        url: "https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=600",
         title: "Title 1",
         id: 1,
     },
     {
-        url: "/imgs/abstract/2.jpg",
+        url: "https://images.pexels.com/photos/933964/pexels-photo-933964.jpeg?auto=compress&cs=tinysrgb&w=600",
         title: "Title 2",
         id: 2,
     },
     {
-        url: "/imgs/abstract/3.jpg",
+        url: "https://images.pexels.com/photos/933964/pexels-photo-933964.jpeg?auto=compress&cs=tinysrgb&w=600",
         title: "Title 3",
         id: 3,
     },
     {
-        url: "/imgs/abstract/4.jpg",
+        url: "https://images.pexels.com/photos/159775/library-la-trobe-study-students-159775.jpeg?auto=compress&cs=tinysrgb&w=600",
         title: "Title 4",
         id: 4,
     },
     {
-        url: "/imgs/abstract/5.jpg",
+        url: "https://images.pexels.com/photos/2982449/pexels-photo-2982449.jpeg?auto=compress&cs=tinysrgb&w=600",
         title: "Title 5",
         id: 5,
     },
     {
-        url: "/imgs/abstract/6.jpg",
+        url: "https://images.pexels.com/photos/256395/pexels-photo-256395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         title: "Title 6",
         id: 6,
     },
     {
-        url: "/imgs/abstract/7.jpg",
+        url: "https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=600",
         title: "Title 7",
         id: 7,
     },

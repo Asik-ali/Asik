@@ -108,7 +108,7 @@ function Feature() {
                         students to apply their knowledge in meaningful ways.
                     </p>
                 </div>
-                <div className="lg:flex lg:justify-end lg:mt-12">
+                <div className="lg:flex lg:justify-center lg:ms-16 lg:mt-10">
                     <ul className="flex flex-col lg:flex-row">
                         {features.map((item, idx) => (
                             <li key={idx} className="flex flex-col items-center lg:items-start  lg:flex-row lg:gap-x-3 mb-8">
