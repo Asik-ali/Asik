@@ -19,7 +19,7 @@ function Home() {
   return (
     <div >
       <Navbar />
-      <Example/>
+     
       <Hero />
       <Hero2 />
       <Card />
@@ -29,6 +29,7 @@ function Home() {
       <Static />
       <Section />
       <Feature />
+      <Example/>
       <Faq />
       <Testimonials />
       <Footer />
