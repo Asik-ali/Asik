@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar/Navbar'
 import Hero from '../Components/Hero/Hero'
 import Card from '../Components/Card/Card'
-import Newsletter from '../Components/Newsletter/Newsletter'
+// import Newsletter from '../Components/Newsletter/Newsletter'
 import Static from '../Components/Static/Static'
 import Testimonials from '../Components/Testimonal/Testimonal'
 import Feature from '../Components/Feature/Feature'
@@ -24,7 +24,7 @@ function Home() {
       <Hero2 />
       <Card />
       <Hero3/>
-      <Newsletter />
+      {/* <Newsletter /> */}
       <Cards/>
       <Static />
       <Section />

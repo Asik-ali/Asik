@@ -1,23 +1,26 @@
 const posts = [
     {
-        title: "What is SaaS? Software as a Service Explained",
-        desc: "Going into this journey, I had a standard therapy regimen, based on looking at the research literature. After I saw the movie, I started to ask other people.",
-        img: "https://images.unsplash.com/photo-1556155092-490a1ba16284?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        date: "Jan 4 2022",
+        title: "Explore Our Programs",
+        desc: 
+        "Start your journey with Link’s Institute by exploring our diverse range of tutoring programs. Browse through subjects, grade levels and available tutors to find the perfect fit for your academic needs."
+        ,
+        img: "https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&w=600",
+        date: "Jan 4 2023",
         href: "javascript:void(0)"
     },
     {
-        title: "A Quick Guide to WordPress Hosting",
-        desc: "According to him, â€œI'm still surprised that this has happened. But we are surprised because we are so surprised.â€More revelations.",
-        img: "https://images.unsplash.com/photo-1620287341056-49a2f1ab2fdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        date: "Jan 4 2022",
+        title: "Contact Us for Information:",
+        desc: 
+        "Have questions or need more information? Feel free to reach out to our dedicated support team. You can contact us via phone calls, WhatsApp, Telegram, email or by filling out the online enquiry form on our website.",
+        img: "https://images.pexels.com/photos/2740956/pexels-photo-2740956.jpeg?auto=compress&cs=tinysrgb&w=600",
+        date: "Jan 4 2023",
         href: "javascript:void(0)"
     },
     {
-        title: "7 Promising VS Code Extensions Introduced in 2022",
-        desc: "I hope I remembered all the stuff that they needed to know. They're like, 'okay,' and write it in their little reading notebooks.",
-        img: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        date: "Jan 4 2022",
+        title: "Professional Growth",
+        desc: "At Links Institute, we invest in the development of our team members. From ongoing training opportunities to mentorship programs, we are committed to fostering a culture of continuous learning and professional growth.",
+        img: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600",
+        date: "Jan 4 2023",
         href: "javascript:void(0)"
     }
 ]
