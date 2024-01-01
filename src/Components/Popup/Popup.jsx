@@ -1,0 +1,41 @@
+// PopupBanner.js
+import React, { useState } from 'react';
+
+const PopupBanner = () => {
+    const [isPopupVisible, setPopupVisible] = useState(true);
+
+    const closePopup = () => {
+        setPopupVisible(false);
+    };
+
+    return (
+        isPopupVisible && (
+            <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50">
+                <div className="p-4 md:p-6 lg:p-8 xl:p-10 rounded-md text-center  max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl">
+                    {/* Add your banner image and any other content here */}
+                    <img
+                        src="https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="Popup Banner"
+                        className="max-w-full mb-4"
+                    />
+                    <button
+                        onClick={closePopup}
+                        className="absolute top-0 right-0 m-4 text-black bg-black hover:text-gray-700 focus:outline-none"
+                    >
+                        X
+                    </button>
+                    <button
+                        className="w-12 h-12 mb-5 rounded-full duration-150 bg-gray-800 hover:bg-gray-700 text-white"
+                        onClick={closePopup}
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5 m-auto">
+                            <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        )
+    );
+};
+
+export default PopupBanner;
