@@ -58,16 +58,17 @@ export default () => {
           <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
         </svg>,
       title: " Flexibility to Schedule Sessions",
-      desc: 
-      "24*6 availability. Choose Anytime, Any day!  "  },
+      desc:
+        "24*6 availability. Choose Anytime, Any day!  "
+    },
     {
       icon:
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
           <path strokeLinecap="round" strokeLinejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
         </svg>,
       title: "Qualified Tutors",
-      desc: 
-      "Education through personalized guidance and experience"
+      desc:
+        "Education through personalized guidance and experience"
     },
     {
       icon:
@@ -92,23 +93,18 @@ export default () => {
         </div>
         <div className="mt-12">
           <ul className="grid gap-y-8 gap-x-12 sm:grid-cols-2 lg:grid-cols-3">
-            {
-              features.map((item, idx) => (
-                <li key={idx} className="space-y-3 border-2 p-4">
-                  <div className="w-12 h-12 mx-auto bg-indigo-50 text-indigo-600 rounded-full flex items-center justify-center">
-                    {item.icon}
-                  </div>
-                  <h4 className="text-lg text-gray-800 font-semibold">
-                    {item.title}
-                  </h4>
-                  <p>
-                    {item.desc}
-                  </p>
-                </li>
-              ))
-            }
+            {features.map((item, idx) => (
+              <li key={idx} className="space-y-3 border-2 p-4 hover:bg-[#6062DC] hover:text-white transition-colors duration-300 ease-in-out">
+                <div className="w-12 h-12 mx-auto bg-indigo-50 text-indigo-600  rounded-full flex items-center justify-center">
+                  {item.icon}
+                </div>
+                <p className="text-lg font-bold">{item.title}</p>
+                <p>{item.desc}</p>
+              </li>
+            ))}
           </ul>
         </div>
+
       </div>
     </section>
   )

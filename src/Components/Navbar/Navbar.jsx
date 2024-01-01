@@ -23,7 +23,7 @@ function Navbar() {
           <div>
             <button className="bg-red-500 text-white px-3 py-1 rounded-3xl hover:bg-[#FBCB1D] transition-all duration-500 hover:text-black">Check Now</button>
           </div>
-          <IoCloseCircle onClick={handleClose} className="text-2xl hover:text-black cursor-pointer transition-all duration-500" />
+          <IoCloseCircle onClick={handleClose} className="text-2xl  hover:text-black cursor-pointer transition-all duration-500" />
         </div>
       </div>
       <div className="p-3 lg:px-4 w-full top-0 z-50 overflow-x-hidden transition-all duration-500">

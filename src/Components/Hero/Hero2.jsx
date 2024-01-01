@@ -18,20 +18,24 @@ function Hero2() {
           <h1 className='text-white text-xl  font-recursive lg:ps-3 lg:pe-3'>
             Start your journey with Link’s Institute by exploring our diverse
             range of tutoring programs.           <span className='text-[#FBCB1D] lg:pe-3'> Browse through subjects, grade levels and available tutors to find
-              the perfect fit for your academic needs.✨  </span> 
+              the perfect fit for your academic needs.✨  </span>
           </h1>
           <div className='flex flex-col md:flex-row px-4 pb-4 gap-5 md:ms-4 mt-4'>
-            <button className='px-6 py-3 bg-[#F2874F] border-2 border-[#f2874f] hover:bg-transparent hover:text-white font-semibold'>
+            <button
+              className="flex items-center justify-center gap-x-2 py-2 px-4 bg-[#6062DC] text-white font-medium duration-150 rounded-lg md:inline-flex 
+hover:shadow-2xl hover:transform hover:scale-105 transition-transform"             >
               Book a Lesson
             </button>
-            <button className='px-6 py-3 border-[#F2874F] hover:bg-[#F2874F] border-2 text-white font-semibold hover:text-black'>
+            <button
+              className="flex items-center justify-center gap-x-2 py-2 px-4 text-white font-medium border-2 border-[#6062DC] duration-150 rounded-lg md:inline-flex 
+hover:shadow-2xl hover:transform hover:scale-105 transition-transform"            >
               Pick a Package
             </button>
           </div>
         </div>
 
       </div>
-      
+
     </>
   );
 }
