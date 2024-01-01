@@ -4,7 +4,7 @@ import img from '../../assets/3.jpg';
 function Hero2() {
   return (
     <>
-      <div className='bg-[#1b2945] lg:pt-10 pb-10 grid grid-cols-1 md:grid-cols-2 place-items-center relative'>
+      <div className='bg-[#6062DC] lg:pt-10 pb-10 grid grid-cols-1 md:grid-cols-2 place-items-center relative'>
         {/* <div className='w-full lg:w-[800px] relative'>
           <div className="absolute top-0 w-72 h-72 bg-[#4F6F52] rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
           <div className="absolute top-0 right-0 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
