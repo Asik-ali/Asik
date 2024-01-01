@@ -1,12 +1,33 @@
 // PopupBanner.js
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const PopupBanner = () => {
-    const [isPopupVisible, setPopupVisible] = useState(true);
+    const [isPopupVisible, setPopupVisible] = useState(false);
+
+    useEffect(() => {
+        const hasPopupBeenShown = localStorage.getItem('hasPopupBeenShown');
+        if (!hasPopupBeenShown) {
+            setPopupVisible(true);
+        }
+    }, []);
 
     const closePopup = () => {
         setPopupVisible(false);
+        localStorage.setItem('hasPopupBeenShown', 'true');
     };
+
+    useEffect(() => {
+        const handleBeforeUnload = () => {
+            // Reset the flag in local storage when the page is reloaded
+            localStorage.removeItem('hasPopupBeenShown');
+        };
+
+        window.addEventListener('beforeunload', handleBeforeUnload);
+
+        return () => {
+            window.removeEventListener('beforeunload', handleBeforeUnload);
+        };
+    }, []);
 
     return (
         isPopupVisible && (
