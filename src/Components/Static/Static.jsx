@@ -18,7 +18,7 @@ function Static() {
         <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gray-900 flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-8 lg:ps-32 ps-2">
             <div className="flex-1 md:max-w-md mx-auto md:mx-0 md:mr-8">
                 <h1 className="text-white text-3xl font-extrabold sm:text-4xl mb-4 sm:mb-6 lg:pt-16">Latest blog posts</h1>
-                <p className="text-gray-600 mb-6">Blogs that are loved by the community. Updated every hour.</p>
+                <p className="text-white mb-6">Blogs that are loved by the community. Updated every hour.</p>
                 <form onSubmit={(e) => e.preventDefault()} className="flex flex-col sm:flex-row items-center gap-3">
                     <div className="relative flex-1">
                         <svg className="w-6 h-6 text-gray-400 absolute left-3 inset-y-0 my-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">

@@ -54,7 +54,7 @@ export default () => {
             </div> */}
             <div className="mt-12 flex flex-wrap gap-4 justify-between">
                 {posts.map((item, idx) => (
-                    <article className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 mt-5 pt-8 md:pt-0" key={idx}>
+                    <article className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 mt-5 pt-8 md:pt-0 border-2 p-4" key={idx}>
                         <a href={item.href} className="block w-full">
                             {/* <span className="block text-gray-400 text-sm">{item.date}</span> */}
                             <div className="mt-2">
