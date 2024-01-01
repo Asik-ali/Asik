@@ -21,7 +21,7 @@ function Navbar() {
         <div className="flex justify-center gap-4 items-center lg:ps-20">
           <p>Live Classes for Annual Exam Revision. Starts on 15 January 2024</p>
           <div>
-            <button className="bg-red-700 text-white px-3 py-1 rounded-3xl hover:bg-[#FBCB1D] transition-all duration-500 hover:text-black">Check Now</button>
+            <button className="bg-red-500 text-white px-3 py-1 rounded-3xl hover:bg-[#FBCB1D] transition-all duration-500 hover:text-black">Check Now</button>
           </div>
           <IoCloseCircle onClick={handleClose} className="text-2xl hover:text-black cursor-pointer transition-all duration-500" />
         </div>
