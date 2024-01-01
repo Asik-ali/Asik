@@ -16,7 +16,7 @@ function Navbar() {
   }
 
   return (
-    <div className="bg-[#1b2945]">
+    <div className="bg-[#6062DC]">
       <div className={isHidden ? "hidden" : " bg-red-700 text-white pt-1 pb-1 justify-around items-center hidden lg:flex"}>
         <div className="flex justify-center gap-4 items-center lg:ps-20">
           <p>Live Classes for Annual Exam Revision. Starts on 15 January 2024</p>
@@ -29,7 +29,7 @@ function Navbar() {
       <div className="p-3 lg:px-4 w-full top-0 z-50 overflow-x-hidden transition-all duration-500">
         <div className="flex items-center justify-between lg:px-4">
           <div>
-            <h1 className="text-white text-4xl">Link's <span className="text-[#FBCB1D]">Institute</span></h1>
+            <h1 className="text-white text-4xl fw-bolder">Link's <span className="text-[#FBCB1D]">Institute</span></h1>
           </div>
           <div className="mt-1 lg:flex items-center justify-center hidden pb-2 lg:pb-0 me-8 lg:me-0">
             <ul className="flex gap-5 justify-center text-lg items-center">
