@@ -46,7 +46,7 @@ function Hero () {
                         }
                     </div>
                     <h1 className="text-4xl text-[#002147]  mx-auto md:text-5xl">
-                    Discover <b className="font-extrabold">Careers in high </b> demand and cultivate cutting-edge skills.                    </h1>
+                    Discover <b className="font-bold text-[#6062DC]">Careers in high </b> demand and cultivate cutting-edge skills.                    </h1>
                     <p className="max-w-xl mx-auto xl:mx-0">
                         We believe
                         in the power of connecting subject knowledge to real-life experiences, equipping our students with
