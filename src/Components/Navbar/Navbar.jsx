@@ -1,6 +1,7 @@
-import { useState } from "react";
-import { FaBars } from "react-icons/fa";
-import { IoCloseCircle } from "react-icons/io5";
+import React, { useState } from 'react';
+import { IoCloseCircle } from 'react-icons/io5';
+import { FaBars } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [drop, setDrop] = useState(false);
@@ -32,10 +33,26 @@ function Navbar() {
           </div>
           <div className="mt-1 lg:flex items-center justify-center hidden pb-2 lg:pb-0 me-8 lg:me-0">
             <ul className="flex gap-5 justify-center text-lg items-center">
-              <li className="text-white cursor-pointer hover:text-[#FBCB1D]">Home</li>
-              <li className="text-white cursor-pointer hover:text-[#FBCB1D]">About</li>
-              <li className="text-white cursor-pointer hover:text-[#FBCB1D]">Courses</li>
-              <li className="text-white cursor-pointer hover:text-[#FBCB1D]">Teacher</li>
+              <li>
+                <Link to="/" className="text-white cursor-pointer hover:text-[#FBCB1D]">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link to="/about" className="text-white cursor-pointer hover:text-[#FBCB1D]">
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link to="/courses" className="text-white cursor-pointer hover:text-[#FBCB1D]">
+                  Courses
+                </Link>
+              </li>
+              <li>
+                <Link to="/teacher" className="text-white cursor-pointer hover:text-[#FBCB1D]">
+                  Teacher
+                </Link>
+              </li>
             </ul>
           </div>
           {/* mobile */}
@@ -62,16 +79,16 @@ function Navbar() {
         >
           <ul className="flex flex-col mt-3 items-center justify-center font-[Lato] gap-3 overflow-hidden ">
             <li onClick={handleMenuToggle} className="text-white mt-2 ms-4 cursor-pointer hover:text-[#FBCB1D]">
-              Home
+              <Link to="/">Home</Link>
             </li>
             <li onClick={handleMenuToggle} className="text-white mt-2 ms-4 cursor-pointer hover:text-[#FBCB1D]">
-              About
+              <Link to="/about">About</Link>
             </li>
             <li onClick={handleMenuToggle} className="text-white mt-2 ms-4 cursor-pointer hover:text-[#FBCB1D]">
-              Courses
+              <Link to="/courses">Courses</Link>
             </li>
             <li onClick={handleMenuToggle} className="text-white mt-2 ms-4 cursor-pointer hover:text-[#FBCB1D]">
-              Teacher
+              <Link to="/teacher">Teacher</Link>
             </li>
           </ul>
         </div>

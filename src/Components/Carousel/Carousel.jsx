@@ -28,7 +28,7 @@ const HorizontalScrollCarousel = () => {
     const x = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
 
     return (
-        <section ref={targetRef} className="relative h-[300vh] bg-neutral-900">
+        <section ref={targetRef} className="relative h-[300vh] ">
             <div className="sticky top-0 flex h-screen items-center overflow-hidden">
                 <motion.div style={{ x }} className="flex gap-4">
                     {cards.map((card) => {
@@ -54,11 +54,11 @@ const Card = ({ card }) => {
                 }}
                 className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110"
             ></div>
-            <div className="absolute inset-0 z-10 grid place-content-center">
+            {/* <div className="absolute inset-0 z-10 grid place-content-center">
                 <p className="bg-gradient-to-br from-white/20 to-white/0 p-8 text-6xl font-black uppercase text-white ">
                     {card.title}
                 </p>
-            </div>
+            </div> */}
         </div>
     );
 };
