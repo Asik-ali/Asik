@@ -17,7 +17,7 @@ function Hero2() {
 
           <h1 className='text-white text-xl  font-recursive lg:ps-3 lg:pe-3'>
             Start your journey with Link’s Institute by exploring our diverse
-            range of tutoring programs.           <span className='text-[#6062DC] lg:pe-3'> Browse through subjects, grade levels and available tutors to find
+            range of tutoring programs.           <span className='text-[#FBCB1D] lg:pe-3'> Browse through subjects, grade levels and available tutors to find
               the perfect fit for your academic needs.✨  </span> 
           </h1>
           <div className='flex flex-col md:flex-row px-4 pb-4 gap-5 md:ms-4 mt-4'>
