@@ -27,7 +27,7 @@ const posts = [
 
 export default () => {
     return (
-        <section className="py-32">
+        <section className="py-10">
             <div className="max-w-screen-xl mx-auto px-4 md:px-8">
                
                 <ul className="grid gap-x-8 gap-y-10 mt-16 sm:grid-cols-2 lg:grid-cols-3">

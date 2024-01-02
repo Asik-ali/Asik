@@ -5,21 +5,22 @@ function Testimonials ()  {
     const testimonials = [
         {
             avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-            name: "Martin escobar",
-            title: "Founder of meta",
-            quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna lorem, euismod volutpat arcu volutpat et."
+            name: "M",
+            title: "Founder",
+            quote:
+             "I participated in a Data Science program where live sessions facilitated a profound comprehension of technical subjects. The platform not only offered in-depth technical discussions but also provided opportunities to engage with industry experts, contributing significantly to my intellectual growth.              "
         },
         {
             avatar: "https://randomuser.me/api/portraits/women/79.jpg",
-            name: "Angela stian",
-            title: "Product designer",
-            quote: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout, that the point of using Lorem Ipsum."
+            name: "Angela ",
+            title: "Product",
+            quote: "I completed the MICA Digital Marketing course with LINKS, and the entire team was incredibly supportive throughout the program. My learning journey was seamless, and I gained valuable insights that significantly contributed to my professional growth. The skills acquired also played a pivotal role in my successful career transition."
         },
         {
             avatar: "https://randomuser.me/api/portraits/men/86.jpg",
             name: "Karim ahmed",
-            title: "DevOp engineer",
-            quote: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati "
+            title: " engineer",
+            quote: "Links is an excellent starting point. I undertook my AI training there and successfully completed an advanced AI and ML program through Links. "
         },
     ]
 

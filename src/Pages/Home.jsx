@@ -21,16 +21,20 @@ function Home() {
      
       <Hero />
       <Hero2 />
+      <Section />
       <Card />
+      <Example/>
       <Hero3/>
       {/* <Newsletter /> */}
       <PopupBanner/>
       <Cards/>
       <Static />
-      <Section />
-      <Feature />
-      <Example/>
+     
       <Faq />
+  
+      <Feature />
+     
+    
       <Testimonials />
     </div>
   )

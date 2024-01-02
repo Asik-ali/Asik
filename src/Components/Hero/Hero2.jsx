@@ -89,48 +89,54 @@ const posts = [
 
 const SliderComponent = () => {
   const settings = {
-    dots: false, // Remove dot controls
+    dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Display three cards at a time
+    slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true, // Enable auto sliding
-    autoplaySpeed: 1000, // Set auto slide speed in milliseconds (e.g., 3 seconds)
+    autoplay: true,
+    autoplaySpeed: 3000, // Adjusted autoplay speed for better responsiveness
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   return (
-    <>
-      <h1>Latest News And Updates</h1>
-    <Slider {...settings}>
-      {posts.map((item, key) => (
-        <div key={key} className="mx-2 pe-5"> {/* Add space between cards */}
-          <a href={item.href}>
-            <img src={item.img} loading="lazy" alt={item.title} className="w-full rounded-lg" />
-            <div className="mt-3 space-y-2">
-              <span className="block text-indigo-600 text-sm">{item.date}</span>
-              <h3 className="text-lg text-gray-800 duration-150 group-hover:text-indigo-600 font-semibold">
-                {item.title}
-              </h3>
-              <p className="text-gray-600 text-sm duration-150 group-hover:text-gray-800">{item.desc}</p>
+    <section className="lg:mt-24 mt-6">
+      <div className="mx-auto px-4 md:px-8">
+        <h1 className='text-2xl md:text-5xl text-center lg:mb-12 md:mb-12 mb-4'>
+          Latest News <span className='text-[#6062DC]'>And Updates</span>
+        </h1>
+        <Slider {...settings}>
+          {posts.map((item, key) => (
+            <div key={key} className="mx-2 pe-5">
+              <a href={item.href}>
+                <img src={item.img} loading="lazy" alt={item.title} className="w-full rounded-lg" />
+                <div className="mt-3 space-y-2">
+                  <span className="block text-indigo-600 text-sm">{item.date}</span>
+                  <h3 className="text-lg text-gray-800 duration-150 group-hover:text-indigo-600 font-semibold">
+                    {item.title}
+                  </h3>
+                  <p className="text-gray-600 text-sm duration-150 group-hover:text-gray-800">{item.desc}</p>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-      ))}
-    </Slider>
-    </>
-  );
-};
-
-const YourComponent = () => {
-  return (
-    <section className="py-32">
-      <div className=" mx-auto px-4 md:px-8">
-        <div className="mt-16">
-          <SliderComponent />
-        </div>
+          ))}
+        </Slider>
       </div>
     </section>
   );
 };
 
-export default YourComponent;
+export default SliderComponent;

@@ -2,7 +2,8 @@ import React from 'react'
 
 function Section() {
   return (
-    <div><section>
+    <div className='lg:mt-16'>
+      <section>
       <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="bg-[#6062DC] p-8 md:p-12 lg:px-16 lg:py-24">
@@ -11,7 +12,7 @@ function Section() {
                 About Links
               </h2>
 
-              <p className="hidden text-white/90 sm:mt-4 sm:block">
+              <p className=" text-white/90 sm:mt-4 sm:block">
                 At LINK’S, we believe in the transformative power of education. Our mission is to provide a
                 transformative educational experience that goes beyond traditional classroom learning. We believe
                 in the power of connecting subject knowledge to real-life experiences, equipping our students with

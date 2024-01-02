@@ -33,8 +33,8 @@ function Hero() {
 
     return (
         <section>
-            <div className="max-w-screen-xl mx-auto px-4 py-28 gap-12 text-gray-600 md:px-8 xl:flex">
-                <div className="space-y-5 max-w-2xl mx-auto text-center xl:text-left">
+            <div className="lg:mt-28 mt-7 mx-auto px-4  gap-12 text-gray-600 md:px-8 xl:flex">
+                <div className=" max-w-2xl mx-auto text-center xl:text-left">
                     <div className="flex flex-wrap items-center justify-center gap-6 xl:justify-start">
                         {
                             features.map((item, idx) => (
@@ -45,9 +45,9 @@ function Hero() {
                             ))
                         }
                     </div>
-                    <h1 className="text-4xl text-[#002147]  mx-auto md:text-5xl">
+                    <h1 className="text-3xl text-[#002147] mt-2 mb-2  mx-auto md:text-5xl">
                         Discover <b className="font-bold text-[#6062DC]">Careers in high </b> demand and cultivate cutting-edge skills.                    </h1>
-                    <p className="max-w-xl mx-auto xl:mx-0">
+                    <p className="max-w-xl mx-auto xl:mx-0  mt-3 mb-5">
                         We believe
                         in the power of connecting subject knowledge to real-life experiences, equipping our students with
                         the practical skills and critical thinking necessary to thrive in the world.                    </p>
