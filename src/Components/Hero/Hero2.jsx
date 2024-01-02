@@ -116,7 +116,7 @@ const SliderComponent = () => {
     <section className="lg:mt-24 mt-6">
       <div className="mx-auto px-4 md:px-8">
         <h1 className='text-2xl md:text-5xl text-center lg:mb-12 md:mb-12 mb-4'>
-          Latest News <span className='text-[#6062DC]'>And Updates</span>
+          Latest News <span className='text-red-500'>And Updates</span>
         </h1>
         <Slider {...settings}>
           {posts.map((item, key) => (
@@ -124,7 +124,7 @@ const SliderComponent = () => {
               <a href={item.href}>
                 <img src={item.img} loading="lazy" alt={item.title} className="w-full rounded-lg" />
                 <div className="mt-3 space-y-2">
-                  <span className="block text-indigo-600 text-sm">{item.date}</span>
+                  <span className="block text-[#002147] text-sm">{item.date}</span>
                   <h3 className="text-lg text-gray-800 duration-150 group-hover:text-indigo-600 font-semibold">
                     {item.title}
                   </h3>

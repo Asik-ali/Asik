@@ -16,7 +16,7 @@ function Navbar() {
   }
 
   return (
-    <div className="bg-[#6062DC]">
+    <div className="bg-[#1b2945]">
       <div className={isHidden ? "hidden" : " bg-white text-black pt-1 pb-1 justify-around items-center hidden lg:flex"}>
         <div className="flex justify-center gap-4 items-center lg:ps-20">
           <p>Live Classes for Annual Exam Revision. Starts on 15 January 2024</p>

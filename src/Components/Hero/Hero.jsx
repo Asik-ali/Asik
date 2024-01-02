@@ -46,14 +46,14 @@ function Hero() {
                         }
                     </div>
                     <h1 className="text-3xl text-[#002147] mt-2 mb-2  mx-auto md:text-5xl">
-                        Discover <b className="font-bold text-[#6062DC]">Careers in high </b> demand and cultivate cutting-edge skills.                    </h1>
+                        Discover <b className="font-bold text-[#1b2945]">Careers in high </b> demand and cultivate cutting-edge skills.                    </h1>
                     <p className="max-w-xl mx-auto xl:mx-0  mt-3 mb-5">
                         We believe
                         in the power of connecting subject knowledge to real-life experiences, equipping our students with
                         the practical skills and critical thinking necessary to thrive in the world.                    </p>
                     <div className="items-center justify-center gap-x-3 space-y-3 sm:flex sm:space-y-0 xl:justify-start">
                         <a href="javascript:void(0)"
-                            className="flex items-center justify-center gap-x-2 py-2 px-4 text-black font-medium border-2 border-[#6062DC] duration-150 rounded-lg md:inline-flex 
+                            className="flex items-center justify-center gap-x-2 py-2 px-4 text-black font-medium border-2 border-[#1b2945] duration-150 rounded-lg md:inline-flex 
                   hover:shadow-2xl hover:transform hover:scale-105 transition-transform"
                         >
                             Browse courses
@@ -62,7 +62,7 @@ function Hero() {
                             </svg>
                         </a>
                         <a href="javascript:void(0)"
-                            className="flex items-center justify-center gap-x-2 py-2 px-4 bg-[#6062DC] text-white font-medium duration-150 rounded-lg md:inline-flex 
+                            className="flex items-center justify-center gap-x-2 py-2 px-4 bg-[#1b2945] text-white font-medium duration-150 rounded-lg md:inline-flex 
                   hover:shadow-2xl hover:transform hover:scale-105 transition-transform"
                         >
                             Get access
@@ -77,7 +77,7 @@ function Hero() {
                 <div className="flex-1 max-w-xl mx-auto mt-14 xl:mt-0">
                     <div className="relative">
                         <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" className="rounded-lg" alt="" />
-                        <button className="absolute w-16 h-16 rounded-full inset-0 m-auto duration-150 bg-[#6062DC] hover:bg-blue-600 ring-offset-2 focus:ring text-white"
+                        <button className="absolute w-16 h-16 rounded-full inset-0 m-auto duration-150 bg-[#1b2945] hover:bg-blue-600 ring-offset-2 focus:ring text-white"
                             onClick={() => setVideoPopUp(true)}
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-6 h-6 m-auto">

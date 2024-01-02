@@ -96,7 +96,7 @@ function Feature() {
     ]
 
     return (
-        <section className="relative py-16 bg-[#6062DC]">
+        <section className="relative py-16 bg-[#002147]">
             <div className="relative z-10 max-w-screen-xl mx-auto px-4 text-gray-300 lg:flex lg:gap-24 md:px-8 flex-col">
                 <div className="flex flex-col lg:items-center">
                     <h3 className="text-white text-3xl font-semibold sm:text-4xl mb-6">
