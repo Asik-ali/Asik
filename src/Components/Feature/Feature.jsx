@@ -115,7 +115,7 @@ function Feature() {
                                 <div className="flex-none w-12 h-12 bg-gray-700 text-cyan-400 rounded-lg flex items-center justify-center lg:mt-2">
                                     {item.icon}
                                 </div>
-                                <div className="lg:me-16">
+                                <div className="lg:me-16 text-center pt-2 lg:pt-0">
                                     <h4 className="text-lg text-gray-100 font-semibold">
                                         {item.title}
                                     </h4>

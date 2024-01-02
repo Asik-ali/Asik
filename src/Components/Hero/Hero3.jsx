@@ -3,7 +3,7 @@ import img from '../../assets/3.jpg';
 
 const Hero3 = () => {
   return (
-<section className='lg:py-5 mt-6 lg:mt-0'>
+<section className='lg:py-5 mt-6 lg:mt-0 ps-1 lg:ps-0'>
         <div className='max-w-screen-xl mx-auto md:px-8'>
           <div className='items-center gap-x-12 sm:px-4 md:px-0 lg:flex'>
             <div className='flex-1 sm:hidden lg:block'>

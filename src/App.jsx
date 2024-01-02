@@ -4,6 +4,7 @@ import Home from './Pages/Home';
 import About from './Pages/About'; // Import other pages as needed
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
+import Courses from './Pages/Courses';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/courses" element={<Courses />} />
         {/* Add more routes for other pages if needed */}
       </Routes>
       <Footer />

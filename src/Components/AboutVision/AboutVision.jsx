@@ -54,14 +54,14 @@ export default () => {
             </div> */}
             <div className="mt-12 flex flex-wrap gap-4 justify-between">
                 {posts.map((item, idx) => (
-                    <article className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 mt-5 pt-8 md:pt-0 border-2 p-4" key={idx}>
-                        <a href={item.href} className="block w-full">
+                    <article className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 mt-5 md:pt-0 border-2 p-16 text-center m-16 bg-[#1b2945]" key={idx}>
+                        <a href={item.href} className="block w-full pt-9">
                             {/* <span className="block text-gray-400 text-sm">{item.date}</span> */}
-                            <div className="mt-2">
-                                <h3 className="text-xl text-gray-900 font-semibold hover:underline">
+                            <div >
+                                <h3 className="text-xl text-[#FBCB1D] font-semibold hover:underline">
                                     {item.title}
                                 </h3>
-                                <p className="text-gray-400 mt-1 leading-relaxed">{item.desc}</p>
+                                <p className="text-white mt-1 leading-relaxed">{item.desc}</p>
                             </div>
                            
                         </a>

@@ -1,12 +1,13 @@
 import React from 'react'
-import AboutHero from '../Components/Abouthero/AboutHero'
 import AboutVision from '../Components/AboutVision/AboutVision'
+import ShuffleHero from '../Components/About/About'
 
 const About = () => {
   return (
     <div>
+      <ShuffleHero/>
         <AboutVision/>
-        <AboutHero/>
+        
     </div>
   )
 }
