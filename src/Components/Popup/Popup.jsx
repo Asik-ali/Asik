@@ -51,7 +51,7 @@ const PopupBanner = () => {
                         onClick={closePopup}
                         className="absolute top-0 right-0 m-4 text-black bg-black hover:text-gray-700 focus:outline-none"
                     >
-                        X
+                       
                     </button>
                     <button
                         className="w-12 h-12 mb-5 rounded-full duration-150 bg-gray-800 hover:bg-gray-700 text-white"
