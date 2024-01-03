@@ -41,7 +41,7 @@ export default () => {
         <div className="mt-12">
           <ul className="grid gap-y-8 gap-x-12 sm:grid-cols-2 lg:grid-cols-3">
             {features.map((item, idx) => (
-              <li key={idx} className={`space-y-3 border-2 p-4 ${idx === 0 ? 'bg-[#E7E5FD]' : idx === 1 ? 'bg-[#FFDEE9]' : 'bg-[#FDF5E0]'} text-black font-semibold transition-colors duration-300 ease-in-out`}>
+              <li key={idx} className={`space-y-3  p-4 ${idx === 0 ? 'bg-[#E7E5FD]' : idx === 1 ? 'bg-[#FFDEE9]' : 'bg-[#FDF5E0]'} text-black font-semibold transition-colors duration-300 ease-in-out`}>
                 <div className={`w-12 h-12 mx-auto ${idx === 0 ? 'bg-[white]' : idx === 1 ? 'bg-[white]' : 'bg-[white]'} text-indigo-600 rounded-full flex items-center justify-center`}>
                   {item.icon}
                 </div>
