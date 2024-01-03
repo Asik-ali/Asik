@@ -15,6 +15,7 @@ import Cards from '../Components/Card/Cards'
 import PopupBanner from '../Components/Popup/Popup'
 import Technology from '../Components/Technology/Technology'
 import Support from '../Components/Support/Support'
+import Modern from '../Components/Modern/Modern'
 
 
 function Home() {
@@ -22,6 +23,7 @@ function Home() {
     <div >
      
       <Hero />
+      <Modern/>
       <Technology/>
       <Support/>
       <Card />
