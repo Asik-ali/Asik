@@ -5,10 +5,18 @@ const PopupBanner = () => {
     const [isPopupVisible, setPopupVisible] = useState(false);
 
     useEffect(() => {
-        const hasPopupBeenShown = localStorage.getItem('hasPopupBeenShown');
-        if (!hasPopupBeenShown) {
-            setPopupVisible(true);
-        }
+        // Set a timeout to open the popup after 5 seconds
+        const timeoutId = setTimeout(() => {
+            const hasPopupBeenShown = localStorage.getItem('hasPopupBeenShown');
+            if (!hasPopupBeenShown) {
+                setPopupVisible(true);
+            }
+        }, 5000);
+
+        // Cleanup the timeout when the component is unmounted or the popup is closed
+        return () => {
+            clearTimeout(timeoutId);
+        };
     }, []);
 
     const closePopup = () => {
