@@ -26,9 +26,10 @@ function Home() {
       <Modern/>
       <Technology/>
       <Support/>
+      <Hero2 />
       <Card />
       <Static />
-      <Hero2 />
+     
      
       <Example/>
       <Hero3/>
