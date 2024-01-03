@@ -6,7 +6,7 @@ export default () => {
             items: [
                 {
                     href: 'javascript:void()',
-                    name: 'Partners'
+                    name: 'About'
                 },
                 {
                     href: 'javascript:void()',
@@ -67,11 +67,11 @@ export default () => {
     ]
 
     return (
-        <footer className="text-gray-500 bg-[#F8F3EF] overflow-hidden px-4 py-6  mx-auto md:px-8">
+        <footer className="text-white bg-[#002147] overflow-hidden px-4 py-6  mx-auto md:px-8">
             <div className="gap-6 justify-between md:flex">
                 <div className="flex-1">
                     <div className="max-w-xs">
-                    <h1 className="text-black text-4xl">Link's <span className="text-[#FBCB1D]">Institute</span></h1>
+                    <h1 className="text-white text-4xl">Link's <span className="text-[#FBCB1D]">Institute</span></h1>
 
                         {/* <img src="https://www.floatui.com/logo.svg" className="w-32" /> */}
                         <p className="leading-relaxed mt-2 text-[15px]">

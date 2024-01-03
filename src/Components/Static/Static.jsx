@@ -18,7 +18,7 @@ function Static() {
     ];
 const [CounterOn,SetCounter]=useState(false)
     return (
-        <section className="py-12  sm:py-16 md:py-20 lg:py-24 bg-[#002147] flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-8 lg:ps-32 ps-2">
+        <section className="py-12 mb-5  sm:py-16 md:py-20 lg:py-24 bg-[#002147] flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-8 lg:ps-32 ps-2">
             <div className="flex-1 md:max-w-md mx-auto md:mx-0 md:mr-8 ps-1">
                 <h1 className="text-white text-3xl font-extrabold sm:text-4xl mb-4 sm:mb-6 lg:pt-16">Latest blog posts</h1>
                 <p className="text-white mb-6">Blogs that are loved by the community. Updated every hour.</p>

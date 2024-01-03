@@ -28,7 +28,7 @@ export default () => {
   ];
 
   return (
-    <section className="py-8">
+    <section className="py-8 overflow-x-hidden">
       <div className="max-w-screen-xl mx-auto px-4 text-center text-gray-600 md:px-8">
         <div className="max-w-2xl mx-auto">
           <h3 className="text-black text-3xl font-semibold sm:text-4xl">

@@ -31,19 +31,19 @@ function Home() {
       <Static />
      
      
-      <Example/>
-      <Hero3/>
+      {/* <Example/> */}
+      {/* <Hero3/> */}
       {/* <Newsletter /> */}
       <PopupBanner/>
-      <Cards/>
+      {/* <Cards/> */}
      
      
-      <Faq />
+      {/* <Faq /> */}
   
-      <Feature />
+      {/* <Feature /> */}
      
     
-      <Testimonials />
+      {/* <Testimonials /> */}
     </div>
   )
 }

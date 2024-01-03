@@ -1,48 +1,3 @@
-// import React from 'react';
-// import img from '../../assets/3.jpg';
-
-// function Hero2() {
-//   return (
-//     <>
-//       <div className='bg-[#1b2945] lg:pt-10 pb-10 grid grid-cols-1 md:grid-cols-2 place-items-center relative'>
-//         {/* <div className='w-full lg:w-[800px] relative'>
-//           <div className="absolute top-0 w-72 h-72 bg-[#4F6F52] rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-//           <div className="absolute top-0 right-0 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-//           <div className="absolute -bottom-8 left-20 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-//         </div> */}
-//         <div className='hidden lg:flex'>
-//           <img src={img} alt="" className='object-cover lg:rounded-l-[50px] pt-4' />
-//         </div>
-//         <div className='flex flex-col gap-4 pl-3 md:pt-0'>
-
-//           <h1 className='text-white text-xl  font-recursive lg:ps-3 lg:pe-3'>
-//             Start your journey with Link’s Institute by exploring our diverse
-//             range of tutoring programs.           <span className='text-[#FBCB1D] lg:pe-3'> Browse through subjects, grade levels and available tutors to find
-//               the perfect fit for your academic needs.✨  </span>
-//           </h1>
-//           <div className='flex flex-col md:flex-row px-4 pb-4 gap-5 md:ms-4 mt-4'>
-//             <button
-//               className="flex items-center justify-center gap-x-2 py-2 px-4 bg-[#6062DC] text-white font-medium duration-150 rounded-lg md:inline-flex 
-// hover:shadow-2xl hover:transform hover:scale-105 transition-transform"             >
-//               Book a Lesson
-//             </button>
-//             <button
-//               className="flex items-center justify-center gap-x-2 py-2 px-4 text-white font-medium border-2 border-[#6062DC] duration-150 rounded-lg md:inline-flex 
-// hover:shadow-2xl hover:transform hover:scale-105 transition-transform"            >
-//               Pick a Package
-//             </button>
-//           </div>
-//         </div>
-
-//       </div>
-
-//     </>
-//   );
-// }
-
-// export default Hero2;
-
-
 import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -50,38 +5,41 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const posts = [
   {
-    title: "Explore Our Programs",
-    desc: "Start your journey with Link’s Institute by exploring our diverse range of tutoring programs. Browse through subjects, grade levels and available tutors to find the perfect fit for your academic needs.",
-    img: "https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&w=600",
+    title: "Revolutionizing Learning: Virtual Reality Takes Classrooms by Storm",
+    desc:
+      "Educational institutions worldwide are embracing virtual reality to enhance student engagement and provide immersive learning experiences. From history lessons to scientific explorations, VR is reshaping the future of education.",
+    img: "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGNvbGxlZ2V8ZW58MHx8MHx8fDA%3D",
     date: "Jan 4 2023",
     href: "javascript:void(0)"
   },
   {
-    title: "Contact Us for Information:",
-    desc: "Have questions or need more information? Feel free to reach out to our dedicated support team. You can contact us via phone calls, WhatsApp, Telegram, email or by filling out the online enquiry form on our website.",
-    img: "https://images.pexels.com/photos/2740956/pexels-photo-2740956.jpeg?auto=compress&cs=tinysrgb&w=600",
+    title: "Global Initiative for Digital Literacy Launched",
+    desc: 
+    "In a collaborative effort, leading tech companies and educational organizations join forces to launch a global initiative aimed at promoting digital literacy among students. The program focuses on equipping learners with essential digital skills for the 21st century.",
+    img: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGNvbGxlZ2V8ZW58MHx8MHx8fDA%3D",
     date: "Jan 4 2023",
     href: "javascript:void(0)"
   },
   {
-    title: "Professional Growth",
-    desc: "At Links Institute, we invest in the development of our team members. From ongoing training opportunities to mentorship programs, we are committed to fostering a culture of continuous learning and professional growth.",
-    img: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600",
+    title: "Breaking Barriers: Inclusive Education Practices Recognized",
+    desc:
+    "In a move towards more inclusive education, schools worldwide are adopting innovative practices to cater to diverse learning needs. From accessible resources to personalized learning plans, the education sector is making strides in ensuring education for all.",
+    img: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvbGxlZ2V8ZW58MHx8MHx8fDA%3D",
     date: "Jan 4 2023",
     href: "javascript:void(0)"
   },
-  // Add the fourth and fifth slides with the same image as the first one
   {
-    title: "Hidden Slide 1",
-    desc: "This is a hidden slide.",
-    img: "https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&w=600",
+    title: "AI-Powered Tutoring Systems: Transforming How Students Learn",
+    desc: 
+    "Artificial Intelligence is revolutionizing the tutoring landscape, providing personalized and adaptive learning experiences for students. As AI-powered systems become more prevalent, educators explore new possibilities in individualized learning paths.",
+    img: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29sbGVnZXxlbnwwfHwwfHx8MA%3D%3D",
     date: "Hidden Date 1",
     href: "javascript:void(0)"
   },
   {
-    title: "Hidden Slide 2",
-    desc: "This is another hidden slide.",
-    img: "https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&w=600",
+    title: "E-Learning Trends 2023: What's Next for Online Education",
+    desc:  "As the landscape of education continues to evolve, e-learning takes center stage. From interactive content delivery to gamified learning modules, explore the upcoming trends shaping the future of online education.",
+    img: "https://images.unsplash.com/photo-1554752191-343d87d6c28f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGNvbGxlZ2V8ZW58MHx8MHx8fDA%3D",
     date: "Hidden Date 2",
     href: "javascript:void(0)"
   },
@@ -113,7 +71,7 @@ const SliderComponent = () => {
   };
 
   return (
-    <section className="  bg-[#F8F3EF] pt-10 py-10">
+    <section className="  bg-[#F8F3EF] pt-10 py-10 overflow-x-hidden">
       <div className="mx-auto px-4 md:px-8">
         <h1 className='text-2xl md:text-4xl text-center lg:mb-12 md:mb-12 mb-4 font-semibold '>
           Latest New And Updates
