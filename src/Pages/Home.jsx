@@ -7,7 +7,7 @@ import Static from '../Components/Static/Static'
 import Testimonials from '../Components/Testimonal/Testimonal'
 import Feature from '../Components/Feature/Feature'
 import Faq from '../Components/Faq/Faq'
-import Section from '../Components/Section/Section'
+// import Section from '../Components/Section/Section'
 import Hero2 from '../Components/Hero/Hero2'
 import Hero3 from '../Components/Hero/Hero3'
 import Example from '../Components/Carousel/Carousel'
@@ -21,7 +21,7 @@ function Home() {
      
       <Hero />
       <Hero2 />
-      <Section />
+     
       <Card />
       <Example/>
       <Hero3/>
