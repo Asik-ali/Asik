@@ -1,54 +1,3 @@
-// import React from 'react';
-
-// const Card = () => {
-
-
-//   return (
-//     <div  className="text-white bg-[#FFEEE5]">
-//       <h1 className='text-center text-black font-semibold pt-5 text-lg md:text-xl lg:text-2xl xl:text-3xl'>
-//         Know Why Should You Choose Only Us?
-//       </h1>
-
-//       <div className='flex flex-col sm:flex-row  justify-evenly pt-[80px] pb-10'>
-//         <div className='flex flex-col gap-3 justify-center items-center'>
-//           <img src="https://vnaya.com/assets/images/tut1.png" alt="" className='w-16 h-16' />
-//           <h2 className='text-center text-base md:text-lg lg:text-xl xl:text-2xl text-[#DA6701]'>
-//           Flexibility to Schedule Sessions
-//           </h2>
-//           <p className='text-center text-sm sm:text-base text-black'>
-//           24*6 availability. Choose Anytime, Any day!
-
-//           </p>
-//         </div>
-//         <div className='flex flex-col gap-3 justify-center items-center'>
-//           <img src="https://vnaya.com/assets/images/tut2.png" alt="" className='w-16 h-16' />
-//           <h2 className='text-center text-base md:text-lg lg:text-xl xl:text-2xl text-[#DA6701]'>Qualified Tutors</h2>
-//           <p className='text-center text-sm sm:text-base text-black'>
-//           Education through personalized guidance and experience
-//           </p>
-//         </div>
-//         <div className='flex flex-col gap-3 justify-center items-center'>
-//           <img src="https://vnaya.com/assets/images/tut3.png" alt="" className='w-16 h-16' />
-//           <h2 className='text-center text-base md:text-lg lg:text-xl xl:text-2xl text-[#DA6701]'>
-//           Cutting-Edge Technology
-//           </h2>
-//           <p className='text-center text-sm sm:text-base text-black'>
-//             Highly User Friendly & Intuitive White Board with Media Sharing!
-//           </p>
-//         </div>
-//         <div className='flex flex-col gap-3 justify-center items-center'>
-//           <img src="https://vnaya.com/assets/images/tut4.png" alt="" className='w-16 h-16' />
-//           <h2 className='text-center text-base md:text-lg lg:text-xl xl:text-2xl text-[#DA6701]'>Personalized Learning</h2>
-//           <p className='text-center text-sm sm:text-base text-black'>Meet individual
-// learning styles and needs</p>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Card;
-
 export default () => {
 
   const features = [
@@ -58,8 +7,7 @@ export default () => {
           <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
         </svg>,
       title: " Flexibility to Schedule Sessions",
-      desc:
-        "24*6 availability. Choose Anytime, Any day!  "
+      desc: "24*6 availability. Choose Anytime, Any day!  "
     },
     {
       icon:
@@ -67,8 +15,7 @@ export default () => {
           <path strokeLinecap="round" strokeLinejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
         </svg>,
       title: "Qualified Tutors",
-      desc:
-        "Education through personalized guidance and experience"
+      desc: "Education through personalized guidance and experience"
     },
     {
       icon:
@@ -76,10 +23,9 @@ export default () => {
           <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
         </svg>,
       title: " Cutting-Edge Technology",
-      desc: "            Highly User Friendly & Intuitive White Board with Media Sharing!"
+      desc: "Highly User Friendly & Intuitive White Board with Media Sharing!"
     },
-
-  ]
+  ];
 
   return (
     <section className="py-8">
@@ -88,23 +34,23 @@ export default () => {
           <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
             Why Choose Us
           </h3>
-          <p className="mt-3">
-            Links provides assistance to each student to achieve desired career goals. We design Links to help individuals acquire skills and knowledge needed to tackle even the most challenging projects.                  </p>
+          <p className="mt-3 text-[#8092B7]">
+            Links provides assistance to each student to achieve desired career goals. We design Links to help individuals acquire skills and knowledge needed to tackle even the most challenging projects.
+          </p>
         </div>
         <div className="mt-12">
           <ul className="grid gap-y-8 gap-x-12 sm:grid-cols-2 lg:grid-cols-3">
             {features.map((item, idx) => (
-              <li key={idx} className="space-y-3 border-2 p-4 hover:bg-[#6062DC] hover:text-white transition-colors duration-300 ease-in-out">
-                <div className="w-12 h-12 mx-auto bg-indigo-50 text-indigo-600  rounded-full flex items-center justify-center">
+              <li key={idx} className={`space-y-3  p-4 ${idx === 0 ? 'bg-[#E7E5FD]' : idx === 1 ? 'bg-[#FFDEE9]' : 'bg-[#FDF5E0]'} text-black font-semibold transition-colors duration-300 ease-in-out`}>
+                <div className={`w-12 h-12 mx-auto ${idx === 0 ? 'bg-[white]' : idx === 1 ? 'bg-[white]' : 'bg-[white]'} text-indigo-600 rounded-full flex items-center justify-center`}>
                   {item.icon}
                 </div>
-                <p className="text-lg font-bold">{item.title}</p>
-                <p>{item.desc}</p>
+                <p className="text-lg font-bold ">{item.title}</p>
+                <p className="text-[#8092B7]">{item.desc}</p>
               </li>
             ))}
           </ul>
         </div>
-
       </div>
     </section>
   )
