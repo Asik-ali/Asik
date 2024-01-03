@@ -177,6 +177,11 @@ function Navbar() {
                   Teacher
                 </Link>
               </li>
+              <li>
+                <Link to="/contact" className="text-white cursor-pointer hover:text-[#FBCB1D]">
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
           {/* mobile */}
