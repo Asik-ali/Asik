@@ -17,7 +17,7 @@ function Navbar() {
 
   <p> </p>
   return (
-    <div className="bg-[#1b2945]">
+    <div className="bg-[#142F58]">
       <div className={isHidden ? "hidden" : " bg-white text-black pt-1 pb-1 justify-around items-center hidden lg:flex"}>
         <div className="flex justify-center gap-4 items-center lg:ps-20">
           <div className="w-10 h-10 flex-none rounded-lg bg-indigo-800 flex items-center justify-center">
@@ -27,13 +27,13 @@ function Navbar() {
           </div>
           <p className='py-1 text-black font-medium'>Live Classes for Annual Exam Revision. Starts on 15 January 2024</p>
           <div>
-            <button className="bg-red-500 text-white px-3 py-1 rounded-3xl hover:bg-[#FBCB1D] transition-all duration-500 hover:text-black">Check Now</button>
+            <button className="bg-[#FF9F46] text-white px-3 py-1 rounded-3xl hover:bg-[#FBCB1D] transition-all duration-500 hover:text-black">Check Now</button>
           </div>
           <IoCloseCircle onClick={handleClose} className="text-2xl  hover:text-black cursor-pointer transition-all duration-500" />
         </div>
       </div>
       
-      <div className="p-3 lg:px-4 w-full top-0 z-50 overflow-x-hidden transition-all duration-500">
+      <div className="p-3 lg:px-4 w-full top-0 z-50 overflow-x-hidden transition-all duration-500 shadow-2xl">
         <div className="flex items-center justify-between lg:px-4">
           <div>
             <h1 className="text-white text-4xl fw-bolder"><b>Link's</b> <span

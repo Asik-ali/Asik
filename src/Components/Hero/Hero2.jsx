@@ -115,8 +115,8 @@ const SliderComponent = () => {
   return (
     <section className="lg:mt-24 mt-6">
       <div className="mx-auto px-4 md:px-8">
-        <h1 className='text-2xl md:text-5xl text-center lg:mb-12 md:mb-12 mb-4'>
-          Latest News <span className='text-indigo-800'>And Updates</span>
+        <h1 className='text-2xl md:text-5xl text-center lg:mb-12 md:mb-12 mb-4 fw-semibold '>
+          Latest New And Updates
         </h1>
         <Slider {...settings}>
           {posts.map((item, key) => (

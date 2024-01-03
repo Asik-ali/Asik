@@ -13,6 +13,8 @@ import Hero3 from '../Components/Hero/Hero3'
 import Example from '../Components/Carousel/Carousel'
 import Cards from '../Components/Card/Cards'
 import PopupBanner from '../Components/Popup/Popup'
+import Technology from '../Components/Technology/Technology'
+import Support from '../Components/Support/Support'
 
 
 function Home() {
@@ -20,15 +22,18 @@ function Home() {
     <div >
      
       <Hero />
+      <Technology/>
+      <Support/>
+      <Card />
+      <Static />
       <Hero2 />
      
-      <Card />
       <Example/>
       <Hero3/>
       {/* <Newsletter /> */}
       <PopupBanner/>
       <Cards/>
-      <Static />
+     
      
       <Faq />
   
