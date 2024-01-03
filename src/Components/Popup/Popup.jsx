@@ -11,7 +11,7 @@ const PopupBanner = () => {
             if (!hasPopupBeenShown) {
                 setPopupVisible(true);
             }
-        }, 5000);
+        }, 3000);
 
         // Cleanup the timeout when the component is unmounted or the popup is closed
         return () => {
