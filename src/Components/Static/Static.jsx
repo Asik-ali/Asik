@@ -1,21 +1,24 @@
+import { useState } from "react";
+import CountUp from "react-countup";
+import ScrollTrigger from "react-scroll-trigger";
 function Static() {
     const stats = [
         {
-            data: "35K",
+            data: "35",
             title: "Customers"
         },
         {
-            data: "40+",
+            data: "40",
             title: "Countries"
         },
         {
-            data: "30M+",
+            data: "30",
             title: "Total revenue"
         },
     ];
-
+const [CounterOn,SetCounter]=useState(false)
     return (
-        <section className="py-12 lg:mt-12 sm:py-16 md:py-20 lg:py-24 bg-[#002147] flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-8 lg:ps-32 ps-2">
+        <section className="py-12  sm:py-16 md:py-20 lg:py-24 bg-[#002147] flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-8 lg:ps-32 ps-2">
             <div className="flex-1 md:max-w-md mx-auto md:mx-0 md:mr-8 ps-1">
                 <h1 className="text-white text-3xl font-extrabold sm:text-4xl mb-4 sm:mb-6 lg:pt-16">Latest blog posts</h1>
                 <p className="text-white mb-6">Blogs that are loved by the community. Updated every hour.</p>
@@ -45,7 +48,12 @@ function Static() {
                     <ul className="flex flex-col gap-4 sm:flex-row items-center justify-center">
                         {stats.map((item, idx) => (
                             <li key={idx} className="w-full text-center bg-white text-black px-6 py-4 rounded-lg sm:w-auto">
-                                <h4 className="text-2xl sm:text-4xl text-black font-semibold">{item.data}</h4>
+                                <ScrollTrigger onEnter={()=>SetCounter(true)} onExit={()=>SetCounter(false)}>
+                                <h4 className="text-2xl sm:text-4xl text-black font-semibold">
+                                    {CounterOn&& <CountUp start={0} end={item.data} duration={2} delay={0} />   }
+                                                            +
+                                    </h4>
+                                    </ScrollTrigger>
                                 <p className="mt-2 text-black font-medium">{item.title}</p>
                             </li>
                         ))}

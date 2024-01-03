@@ -113,9 +113,9 @@ const SliderComponent = () => {
   };
 
   return (
-    <section className="lg:mt-24 mt-6">
+    <section className="  bg-[#F8F3EF] pt-10 py-10">
       <div className="mx-auto px-4 md:px-8">
-        <h1 className='text-2xl md:text-5xl text-center lg:mb-12 md:mb-12 mb-4 fw-semibold '>
+        <h1 className='text-2xl md:text-4xl text-center lg:mb-12 md:mb-12 mb-4 font-semibold '>
           Latest New And Updates
         </h1>
         <Slider {...settings}>
@@ -124,11 +124,11 @@ const SliderComponent = () => {
               <a href={item.href}>
                 <img src={item.img} loading="lazy" alt={item.title} className="w-full rounded-lg" />
                 <div className="mt-3 space-y-2">
-                  <span className="block text-[#002147] text-sm">{item.date}</span>
-                  <h3 className="text-lg text-gray-800 duration-150 group-hover:text-indigo-600 font-semibold">
+                  <span className="block text-gray-600 text-sm">{item.date}</span>
+                  <h3 className="text-lg text-black duration-150 group-hover:text-indigo-600 font-semibold">
                     {item.title}
                   </h3>
-                  <p className="text-gray-600 text-sm duration-150 group-hover:text-gray-800">{item.desc}</p>
+                  <p className="text-[#808083] text-sm duration-150 group-hover:text-gray-800">{item.desc}</p>
                 </div>
               </a>
             </div>
