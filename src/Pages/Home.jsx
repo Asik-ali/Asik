@@ -16,12 +16,13 @@ import PopupBanner from '../Components/Popup/Popup'
 import Technology from '../Components/Technology/Technology'
 import Support from '../Components/Support/Support'
 import Modern from '../Components/Modern/Modern'
+import { Outlet } from 'react-router-dom'
 
 
 function Home() {
   return (
     <div >
-     
+    
       <Hero />
       <Modern/>
       <Technology/>
@@ -30,20 +31,20 @@ function Home() {
       <Card />
       <Static />
      
+      <PopupBanner/>
      
       {/* <Example/> */}
       {/* <Hero3/> */}
       {/* <Newsletter /> */}
-      <PopupBanner/>
-      {/* <Cards/> */}
+      {/* <Cards/>
      
      
-      {/* <Faq /> */}
+      <Faq />
   
-      {/* <Feature /> */}
+      <Feature />
      
-    
-      {/* <Testimonials /> */}
+
+      <Testimonials /> */}
     </div>
   )
 }
