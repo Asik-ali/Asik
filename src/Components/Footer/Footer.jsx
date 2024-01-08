@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebookF, faTwitter, faLinkedinIn, faInstagram } from "@fortawesome/free-brands-svg-icons";
 export default () => {
 
     const footerNavs = [
@@ -63,21 +65,61 @@ export default () => {
                     name: 'About US'
                 },
             ]
+        },
+        {
+            label: "Support",
+            items: [
+                {
+                    href: 'javascript:void()',
+                    name: 'FAQ'
+                },
+                {
+                    href: 'javascript:void()',
+                    name: 'Support'
+                },
+                {
+                    href: 'javascript:void()',
+                    name: 'Policy'
+                },
+                {
+                    href: 'javascript:void()',
+                    name: 'Business'
+                }
+            ]
         }
     ]
 
     return (
-        <footer className="text-white bg-[#002147] overflow-hidden px-4 py-6  mx-auto md:px-8">
+        <footer className="text-black bg-[#FEF6E1] overflow-hidden px-4 py-6  mx-auto md:px-8">
             <div className="gap-6 justify-between md:flex">
                 <div className="flex-1">
                     <div className="max-w-xs">
-                    <h1 className="text-white text-4xl">Link's <span className="text-[#FBCB1D]">Institute</span></h1>
+                    <h1 className="text-black text-4xl">Link's <span className="text-[#FBCB1D]">Institute</span></h1>
 
                         {/* <img src="https://www.floatui.com/logo.svg" className="w-32" /> */}
-                        <p className="leading-relaxed mt-2 text-[15px]">
-                        we believe in the transformative power of education. Our mission is to provide a
-transformative educational experience that goes beyond traditional classroom learning.                        </p>
-                    </div>
+                        <ul className="flex items-center space-x-4 mt-7">
+  <li className="w-10 h-10 border border-black rounded-full flex items-center justify-center">
+    <a href="https://example.com">
+      <FontAwesomeIcon icon={faFacebookF} className="text-blue-400" />
+    </a>
+  </li>
+  <li className="w-10 h-10 border border-black rounded-full flex items-center justify-center">
+    <a href="https://example.com">
+      <FontAwesomeIcon icon={faTwitter} className="text-blue-700" />
+    </a>
+  </li>
+  <li className="w-10 h-10 border border-black rounded-full flex items-center justify-center">
+    <a href="https://example.com">
+      <FontAwesomeIcon icon={faLinkedinIn} className="text-blue-500" />
+    </a>
+  </li>
+  <li className="w-10 h-10 border border-black rounded-full flex items-center justify-center">
+    <a href="https://example.com">
+      <FontAwesomeIcon icon={faInstagram} className="text-red-600" />
+    </a>
+  </li>
+</ul>
+</div>
                     {/* <form 
                         onSubmit={(e) => e.preventDefault()}
                     >
@@ -130,7 +172,7 @@ transformative educational experience that goes beyond traditional classroom lea
                 <div className="mt-4 sm:mt-0">
                     &copy; 2024 Link's All rights reserved.
                 </div>
-                <div className="mt-6 sm:mt-0">
+                {/* <div className="mt-6 sm:mt-0">
                     <ul className="flex items-center space-x-4">
                         <li className="w-10 h-10 border rounded-full flex items-center justify-center">
                             <a href="javascript:void()">
@@ -164,7 +206,7 @@ transformative educational experience that goes beyond traditional classroom lea
                             </a>
                         </li>
                     </ul>
-                </div>
+                </div> */}
             </div>
             <style jsx>{`
                 .svg-icon path,
