@@ -97,8 +97,8 @@ const About = () => {
        
 
         <div className='flex flex-col gap-7 lg:mt-0 lg:ps-0 ps-2 mt-10'>
-          <h1 className='lg:text-5xl text-2xl font-semibold'>Our Team: Qualified Tutors</h1>
-          <p className='text-[#808083] text-justify lg:w-[520px]'>The backbone of LINK’S is our team of dedicated tutors, comprised of experienced professionals and subject matter experts who are truly passionate about education. With a wealth of practical knowledge and a commitment to nurturing the potential in every student, our tutors bring a unique blend of expertise and enthusiasm to the learning process.</p>
+          <h1 className='lg:text-5xl text-2xl font-semibold'>Our Team</h1>
+          <p className='text-[#808083] text-justify lg:w-[450px]'>The backbone of LINK’S is our team of dedicated tutors, comprised of experienced professionals and subject matter experts who are truly passionate about education. With a wealth of practical knowledge and a commitment to nurturing the potential in every student, our tutors bring a unique blend of expertise and enthusiasm to the learning process.</p>
 
         </div>
         <div>
