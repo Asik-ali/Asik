@@ -1,11 +1,11 @@
 import React from 'react'
-import AboutHero from '../Components/Abouthero/AboutHero'
+import PriceCard from '../Components/PriceCard/PriceCard'
 
 
 const Courses = () => {
   return (
     <div>
-       <AboutHero/> 
+       <PriceCard/>
         
         
     </div>
