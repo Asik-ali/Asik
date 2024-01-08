@@ -135,7 +135,7 @@ export default () => {
                         CBSE
                     </h3>
                 </div>
-                
+
                 {/* Laptop View */}
                 <div className='mt-16 space-y-6 justify-center gap-6 sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 hidden lg:flex'>
                     {visiblePlans.map((item, idx) => (
@@ -210,7 +210,7 @@ export default () => {
                             </div>
                         </div>
                     ))}
-                    <div className='flex justify-between'>
+                    <div className=' justify-between flex lg:hidden'>
                         <button
                             onClick={prevSlide}
                             className='px-3 py-2 rounded-lg font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'
@@ -227,7 +227,7 @@ export default () => {
                 </div>
 
                 {/* Laptop View Navigation */}
-                <div className=' justify-between hidden lg:flex'>
+                <div className=' justify-between lg:flex hidden'>
                     <button
                         onClick={prevSlide}
                         className='px-3 py-2 rounded-lg absolute top-[45%] left-0 md:left-[2%] font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'
@@ -241,14 +241,12 @@ export default () => {
                         Next
                     </button>
                 </div>
-                
-                {/* Mobile View Navigation */}
-                <div className='flex justify-between lg:hidden mt-5'>
+                {/* <div className='flex justify-between lg:hidden mt-5'>
                     <button
                         onClick={prevSlide}
                         className='px-3 py-2 rounded-lg  md:left-[2%] font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'
                     >
-                        Previous
+                        Previou
                     </button>
                     <button
                         onClick={nextSlide}
@@ -256,7 +254,10 @@ export default () => {
                     >
                         Next
                     </button>
-                </div>
+                </div> */}
+
+
+
             </div>
         </section>
     );
