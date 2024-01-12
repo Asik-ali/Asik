@@ -12,8 +12,9 @@ function Support() {
                         <MdDesignServices className='text-white text-4xl' />
                     </div>
                     <div>
-                        <h5 className='font-semibold'>Design & Devlopment</h5>
-                        <p className='text-[12px] text-gray-600'>With flexible contract options and no setup up fees,Hustle works for schols of all sizes.</p>
+                        <h5 className='font-semibold'>Qualified Tutors</h5>
+                        <p className='text-[12px] text-gray-600'>Our team of dedicated tutors consists of experienced professionals and subject matter experts who
+                            are passionate about education.</p>
                     </div>
                 </div>
                 <div className='w-[370px] rounded h-[100px] bg-[#E7E5FD] flex justify-evenly items-center gap-5'>
@@ -21,8 +22,9 @@ function Support() {
                         <FaDollarSign className='text-white text-4xl' />
                     </div>
                     <div>
-                        <h5 className='font-semibold'>Finance Management</h5>
-                        <p className='text-[12px] text-gray-600'>With flexible contract options and no setup up fees,Hustle works for schols of all sizes.</p>
+                        <h5 className='font-semibold'>Our Approach</h5>
+                        <p className='text-[12px] text-gray-600'>LINKS isn't just about tutoring. We mix supe­rior academics with a positive, uplifting atmosphere­. This helps nurture self-assurance­ and a passion for learning.
+</p>
                     </div>
                 </div>
                 <div className='w-[370px] rounded h-[100px] bg-[#FFDEE9] flex justify-evenly items-center gap-5'>
@@ -30,8 +32,9 @@ function Support() {
                         <FaRegUserCircle className='text-white text-4xl' />
                     </div>
                     <div>
-                        <h5 className='font-semibold'>Self Devlopment</h5>
-                        <p className='text-[12px] text-gray-600'>With flexible contract options and no setup up fees,Hustle works for schols of all sizes.</p>
+                        <h5 className='font-semibold'>Explore Our Programs:</h5>
+                        <p className='text-[12px] text-gray-600'>Start your journey with Link’s Institute by exploring our diverse
+range of tutoring programs. </p>
                     </div>
                 </div>
             </div>
@@ -41,8 +44,9 @@ function Support() {
                         <FaRegUserCircle className='text-white text-4xl' />
                     </div>
                     <div>
-                        <h5 className='font-semibold'>Business & Consulting</h5>
-                        <p className='text-[12px] text-gray-600'>With flexible contract options and no setup up fees,Hustle works for schols of all sizes.</p>
+                        <h5 className='font-semibold'>Innovative Environment:</h5>
+                        <p className='text-[12px] text-gray-600'>Join a team that values creativity and embraces technology to
+enhance the learning experience.</p>
                     </div>
                 </div>
                 <div className='w-[370px] rounded h-[100px] bg-[#FDF5E0] flex justify-evenly items-center gap-5'>
@@ -50,8 +54,9 @@ function Support() {
                         <MdDesignServices className='text-white text-4xl' />
                     </div>
                     <div>
-                        <h5 className='font-semibold'>Design & Devlopment</h5>
-                        <p className='text-[12px] text-gray-600'>With flexible contract options and no setup up fees,Hustle works for schols of all sizes.</p>
+                        <h5 className='font-semibold'>Collaborative Culture</h5>
+                        <p className='text-[12px] text-gray-600'>We believe in the power of collaboration. Our team works together
+to achieve common goals, and we celebrate individual and collective successes.</p>
                     </div>
                 </div>
                 <div className='w-[370px] rounded h-[100px] bg-[#FDF5E0] flex justify-evenly items-center gap-5'>
@@ -59,8 +64,9 @@ function Support() {
                         <FaDollarSign className='text-white text-4xl' />
                     </div>
                     <div>
-                        <h5 className='font-semibold'>Finance Management</h5>
-                        <p className='text-[12px] text-gray-600'>With flexible contract options and no setup up fees,Hustle works for schols of all sizes.</p>
+                        <h5 className='font-semibold'>Cutting-Edge Technology</h5>
+                        <p className='text-[12px] text-gray-600'>Utilizing state-of-the-art online learning platforms, we create engaging and interactive sessions that
+enhance the learning experience.</p>
                     </div>
                 </div>
 

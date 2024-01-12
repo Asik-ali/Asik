@@ -8,7 +8,9 @@ function Technology() {
         </div>
         <div className='flex flex-col gap-5 lg:mt-20 lg:ps-0 ps-2 mt-10'>
             <h1 className='lg:text-4xl text-2xl font-semibold lg:w-[350px]'>Engage Students Through Technology</h1>
-            <p className='text-[#808083] lg:w-[450px]'>Nowadays, it's such a great time to be a teacher or a student when you can combine learning with technology. the classroom activities can resemble the real world when taking advantage of our intuitive and straightforward design, studio.</p>
+            <p className='text-[#808083] lg:w-[450px]'>We understand that every student is unique. Our tutors tailor their approach to meet individual
+learning styles and needs. Utilizing state-of-the-art online learning platforms, we create engaging and interactive sessions that
+enhance the learning experience.</p>
             <div >
                 <button className='bg-black text-white py-1 px-5 rounded '>See More</button>
             </div>
