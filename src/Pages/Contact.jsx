@@ -12,12 +12,12 @@ const Contact = () => {
         </p>
       </div>
       <p class="text-center text-3xl font-bold text-gray-900 md:text-5xl md:leading-10">
-        Love to hear from you
+       Contact Us
       </p>
       <p class="mx-auto max-w-4xl text-center text-base text-gray-600 md:text-xl">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-        veritatis voluptates neque itaque repudiandae sint, explicabo assumenda
-        quam ratione placeat?
+      Have questions or need more information? Feel free to reach
+out to our dedicated support team. You can contact us via phone calls, WhatsApp, Telegram,
+email or by filling out the online enquiry form on our website.
       </p>
     </div>
     <div class="mx-auto max-w-7xl py-12 md:py-24">

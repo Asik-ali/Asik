@@ -27,8 +27,7 @@ const About = () => {
             </h1>
           </div>
           <p className="text-gray-700 mt-4 px-4 text-center lg:px-0 lg:text-left   lg:w-[350px]">
-            Connect in real time with the most effective peer-to-peer texting
-            tool for higher education
+          we believe in the transformative power of education.
           </p>
           <div className="flex flex-col lg:flex-row items-center gap-4">
             <input
@@ -82,13 +81,15 @@ const About = () => {
 
       <div className=' bg-[#F8F3EF] flex flex-col lg:flex-row gap-7 lg:gap-0 pb-10 pt-10 justify-evenly items-center'>
 
-
+      <div>
+          <img className="w-[500px] rounded" src={a2} lt="" />
+        </div>
         <div className='flex flex-col gap-7 lg:mt-0 lg:ps-0 ps-2 mt-10'>
           <h1 className='lg:text-5xl text-2xl font-semibold'>Our Vision</h1>
           <p className='text-[#808083] text-justify lg:w-[450px]'>LINK’S envisions a world where every student has access to personalized and effective learning experiences. We aspire to cultivate a lifelong love for learning, fostering an environment where education is a continuous journey of exploration and growth.</p>
 
         </div>
-        <div>
+        <div className="hidden">
           <img className="w-[500px] rounded" src={a2} lt="" />
         </div>
       </div>
@@ -107,14 +108,16 @@ const About = () => {
       </div>
 
       <div className=' bg-[#F8F3EF] flex flex-col lg:flex-row gap-7 lg:gap-0 pb-10 pt-10 justify-evenly items-center'>
-
+      <div>
+          <img className="w-[500px] rounded" src={a4} lt="" />
+        </div>
 
         <div className='flex flex-col gap-7 lg:mt-0 lg:ps-0 ps-2 mt-10'>
           <h1 className='lg:text-5xl text-2xl font-semibold'>Our Approach</h1>
           <p className='text-[#808083] text-justify lg:w-[450px]'>At LINK’S, our approach goes beyond traditional tutoring. We combine academic excellence with a supportive and encouraging environment, fostering confidence and a genuine love for learning. Our students not only gain knowledge but also develop the skills and mindset needed to navigate an ever-evolving world successfully..</p>
 
         </div>
-        <div>
+        <div className="hidden">
           <img className="w-[500px] rounded" src={a4} lt="" />
         </div>
       </div>
