@@ -17,7 +17,7 @@ function Navbar() {
 
   return (
     <div className="bg-[#142F58]">
-      <div className={isHidden ? "hidden" : "bg-white text-black pt-1 pb-1 justify-around items-center hidden lg:flex"}>
+      <div className={isHidden ? "hidden" : "bg-white text-black  pb-1 justify-around items-center hidden lg:flex"}>
         <div className="flex justify-center gap-4 items-center lg:ps-20">
           <div className="w-10 h-10 flex-none rounded-lg bg-[#142F58] flex items-center justify-center">
             <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill='white' viewBox="0 0 24 24" strokeWidth={1.5} stroke="white">
@@ -49,7 +49,7 @@ function Navbar() {
                   About
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/courses" className="text-white cursor-pointer hover:text-[#FBCB1D]">
                   Courses
                 </Link>
@@ -58,7 +58,7 @@ function Navbar() {
                 <Link to="/teacher" className="text-white cursor-pointer hover:text-[#FBCB1D]">
                   Teacher
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/contact" className="text-white cursor-pointer hover:text-[#FBCB1D]">
                   Contact
@@ -95,12 +95,17 @@ function Navbar() {
             <li onClick={handleMenuToggle} className="text-white mt-2 ms-4 cursor-pointer hover:text-[#FBCB1D]">
               <Link to="/about">About</Link>
             </li>
-            <li onClick={handleMenuToggle} className="text-white mt-2 ms-4 cursor-pointer hover:text-[#FBCB1D]">
+            {/* <li onClick={handleMenuToggle} className="text-white mt-2 ms-4 cursor-pointer hover:text-[#FBCB1D]">
               <Link to="/courses">Courses</Link>
             </li>
             <li onClick={handleMenuToggle} className="text-white mt-2 ms-4 cursor-pointer hover:text-[#FBCB1D]">
               <Link to="/teacher">Teacher</Link>
-            </li>
+            </li> */}
+            <li onClick={handleMenuToggle} className="text-white mt-2 ms-4 cursor-pointer hover:text-[#FBCB1D]">
+                <Link to="/contact" >
+                  Contact
+                </Link>
+              </li>
           </ul>
         </div>
         {/* laptop */}
