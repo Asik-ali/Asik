@@ -3,12 +3,11 @@ import React, { useState } from 'react';
 export default () => {
     const plans = [
         {
-            name: "Secondary - G 9&10 Arabic",
+            name: "Secondary - G 9 & 10 Arabic",
             price: 12,
             features: [
                 "One To One Sessions",
                 "Limited Seats",
-
             ],
         },
         {
@@ -29,7 +28,39 @@ export default () => {
             ],
         },
         {
-            name: "Secondary - G 9&10 Science",
+            name: "Secondary - G 9&10 Economics",
+            price: 60,
+            features: [
+                "One To One Sessions",
+                "Limited Seats",
+            ],
+        },
+        {
+            name: "Secondary - G 9&10 Business Studies",
+            price: 60,
+            features: [
+                "One To One Sessions",
+                "Limited Seats",
+            ],
+        },
+        {
+            name: "Secondary - G 9&10 Data Entry Operation",
+            price: 60,
+            features: [
+                "One To One Sessions",
+                "Limited Seats",
+            ],
+        },
+        {
+            name: "Secondary - G 9&10 Science & Technology",
+            price: 60,
+            features: [
+                "One To One Sessions",
+                "Limited Seats",
+            ],
+        },
+        {
+            name: "Secondary - G 9&10 Accounting",
             price: 60,
             features: [
                 "One To One Sessions",
@@ -108,6 +139,22 @@ export default () => {
                 "Limited Seats",
             ],
         },
+        {
+            name: "Senior Secondary G 11 &12 Computer Science",
+            price: 60,
+            features: [
+                "One To One Sessions",
+                "Limited Seats",
+            ],
+        },
+        {
+            name: "Senior Secondary G 11 &12 Data Entry Operation",
+            price: 60,
+            features: [
+                "One To One Sessions",
+                "Limited Seats",
+            ],
+        },
         // Add more plans as needed
     ];
 
@@ -132,7 +179,7 @@ export default () => {
             <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
                 <div className='relative max-w-xl mx-auto sm:text-center'>
                     <h3 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
-                        CBSE
+                     NIOS
                     </h3>
                 </div>
 
