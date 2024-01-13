@@ -54,11 +54,11 @@ function Navbar() {
                   Courses
                 </Link>
               </li>
-              <li>
-                {/* <Link to="/teacher" className="text-white cursor-pointer hover:text-[#FBCB1D]">
+              {/* <li>
+                <Link to="/teacher" className="text-white cursor-pointer hover:text-[#FBCB1D]">
                   Teacher
-                </Link> */}
-              </li>
+                </Link>
+              </li> */}
               <li>
                 <Link to="/contact" className="text-white cursor-pointer hover:text-[#FBCB1D]">
                   Contact
