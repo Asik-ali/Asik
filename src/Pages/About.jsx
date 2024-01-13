@@ -19,14 +19,14 @@ const About = () => {
         <AboutVision/>
          */}
 
-      <div className="bg-[#FEF6E2] flex-col lg:flex-row justify-center gap-5 lg:gap-0 pt-10 lg:pt-0  overflow-hidden flex items-center lg:justify-around">
+      <div className="bg-[#142F58] flex-col lg:flex-row justify-center gap-5 lg:gap-0 pt-10 lg:pt-0  overflow-hidden flex items-center lg:justify-around">
         <div className="flex flex-col gap-5">
           <div>
-            <h1 className="font-Roboto font-bold text-2xl text-center lg:text-5xl lg:text-left    lg:w-[350px]">
+            <h1 className="font-Roboto font-bold text-2xl text-center lg:text-5xl lg:text-left text-white   lg:w-[350px]">
               It's Now Easier to Get Quality Education
             </h1>
           </div>
-          <p className="text-gray-700 mt-4 px-4 text-center lg:px-0 lg:text-left   lg:w-[350px]">
+          <p className="text-white mt-4 px-4 text-center lg:px-0 lg:text-left   lg:w-[350px]">
           we believe in the transformative power of education.
           </p>
           <div className="flex flex-col lg:flex-row items-center gap-4">

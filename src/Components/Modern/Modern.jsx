@@ -3,7 +3,7 @@ import React from 'react'
 function Modern() {
   return (
     <div className='bg-[#FAFAFC]'>
-        <h1 className='lg:text-4xl text-2xl font-semibold lg:w-[950px] mx-auto  text-center pt-10 font-montserrat'>EMPOWERING MODERN DAY EDUCATION</h1>
+        <h1 className='lg:text-4xl text-2xl font-semibold lg:w-[950px] mx-auto  text-center pt-10 font-poppins'>EMPOWERING MODERN DAY EDUCATION</h1>
 
 <div className='flex flex-col lg:flex-row  justify-center items-center  mt-20 lg:mt-[100px] gap-14 pb-20 lg:pb-24'>
     <div className='bg-[#E8E6FE] w-[290px] lg:w-[320px]  h-[220px] rounded flex flex-col justify-center p-2 ps-3 gap-4'>

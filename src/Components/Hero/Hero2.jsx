@@ -74,7 +74,7 @@ const SliderComponent = () => {
     <section className="  bg-[#F8F3EF] pt-10 py-10 overflow-x-hidden">
       <div className="mx-auto px-4 md:px-8">
         <h1 className='text-2xl md:text-4xl text-center lg:mb-12 md:mb-12 mb-4 font-semibold '>
-          Latest New And Updates
+          Latest News And Updates
         </h1>
         <Slider {...settings}>
           {posts.map((item, key) => (
