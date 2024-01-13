@@ -2,7 +2,7 @@ import React from 'react'
 import img from "../../assets/img1.png"
 function Technology() {
   return (
-    <div className=' bg-[#F8F3EF] flex flex-col pb-10 lg:flex-row  justify-evenly items-center'>
+    <div className=' bg-[#DCF2F1] flex flex-col pb-10 lg:flex-row  justify-evenly items-center'>
       <div>
         <img src={img} lt="" />
       </div>
