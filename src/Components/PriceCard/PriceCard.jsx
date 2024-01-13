@@ -230,13 +230,13 @@ export default () => {
                 <div className=' justify-between lg:flex hidden'>
                     <button
                         onClick={prevSlide}
-                        className='px-3 py-2 rounded-lg absolute top-[45%] left-0 md:left-[2%] font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'
+                        className='px-3 py-2 rounded-lg absolute top-[55%] left-0 md:left-[2%] font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'
                     >
                         Previous
                     </button>
                     <button
                         onClick={nextSlide}
-                        className='px-3 py-2 rounded-lg absolute top-[45%] right-0 md:right-[5%] font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'
+                        className='px-3 py-2 rounded-lg absolute top-[55%] right-0 md:right-[5%] font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'
                     >
                         Next
                     </button>

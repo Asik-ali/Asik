@@ -53,7 +53,7 @@ const About = () => {
       <div className=' bg-[#EDEDF9] flex flex-col lg:flex-row gap-7 lg:gap-0 pb-10 pt-10 justify-evenly items-center'>
 
         <div className='flex flex-col gap-7 lg:mt-20 lg:ps-0 ps-2 mt-10'>
-          <h1 className='lg:text-4xl text-2xl font-semibold  lg:w-[650px]'>LINK’S-Education unfolds, transcending limits in transformative journeys.</h1>
+          <h1 className='lg:text-4xl text-xl font-semibold  lg:w-[650px] text-center lg:text-start'>LINK’S-Education unfolds.</h1>
           <p className='text-[#808083] lg:w-[450px]'>At LINK’S, we are driven by a steadfast belief in the profound impact of education. Our commitment is to go beyond the conventional boundaries of classroom learning, offering a transformative educational experience that resonates with the real world. At the core of LINK’S philosophy is the conviction that connecting subject knowledge to real-life experiences is the key to preparing students for success.</p>
           <div >
             <button className='bg-black text-white py-1 px-5 rounded '>See More</button>
@@ -69,7 +69,7 @@ const About = () => {
         
 
         <div className='flex flex-col gap-7 lg:mt-0 lg:ps-0 ps-2 mt-10'>
-          <h1 className='lg:text-5xl text-2xl font-semibold'>Our Mission</h1>
+          <h1 className='lg:text-5xl text-2xl font-semibold text-center'>Our Mission</h1>
           <p className='text-[#808083] text-justify lg:w-[450px]'>At LINK’S, our mission is to provide an educational experience that transcends traditional methods. We are dedicated to equipping our students with not just theoretical knowledge but also practical skills and critical thinking abilities. Through hands-on projects, internships, and active community engagement, we aim to bridge the gap between theory and practice. Our goal is to empower students to apply their knowledge meaningfully in diverse scenarios, ensuring they are well-prepared to thrive in the dynamic world around them.</p>
 
         </div>
@@ -85,7 +85,7 @@ const About = () => {
           <img className="w-[500px] rounded" src={a2} lt="" />
         </div>
         <div className='flex flex-col gap-7 lg:mt-0 lg:ps-0 ps-2 mt-10'>
-          <h1 className='lg:text-5xl text-2xl font-semibold'>Our Vision</h1>
+          <h1 className='lg:text-5xl text-2xl font-semibold text-center'>Our Vision</h1>
           <p className='text-[#808083] text-justify lg:w-[450px]'>LINK’S envisions a world where every student has access to personalized and effective learning experiences. We aspire to cultivate a lifelong love for learning, fostering an environment where education is a continuous journey of exploration and growth.</p>
 
         </div>
@@ -98,7 +98,7 @@ const About = () => {
        
 
         <div className='flex flex-col gap-7 lg:mt-0 lg:ps-0 ps-2 mt-10'>
-          <h1 className='lg:text-5xl text-2xl font-semibold'>Our Team</h1>
+          <h1 className='lg:text-5xl text-2xl font-semibold text-center'>Our Team</h1>
           <p className='text-[#808083] text-justify lg:w-[450px]'>The backbone of LINK’S is our team of dedicated tutors, comprised of experienced professionals and subject matter experts who are truly passionate about education. With a wealth of practical knowledge and a commitment to nurturing the potential in every student, our tutors bring a unique blend of expertise and enthusiasm to the learning process.</p>
 
         </div>
@@ -113,7 +113,7 @@ const About = () => {
         </div>
 
         <div className='flex flex-col gap-7 lg:mt-0 lg:ps-0 ps-2 mt-10'>
-          <h1 className='lg:text-5xl text-2xl font-semibold'>Our Approach</h1>
+          <h1 className='lg:text-5xl text-2xl font-semibold text-center'>Our Approach</h1>
           <p className='text-[#808083] text-justify lg:w-[450px]'>At LINK’S, our approach goes beyond traditional tutoring. We combine academic excellence with a supportive and encouraging environment, fostering confidence and a genuine love for learning. Our students not only gain knowledge but also develop the skills and mindset needed to navigate an ever-evolving world successfully..</p>
 
         </div>

@@ -35,7 +35,7 @@ function Navbar() {
       <div className="p-3 lg:px-4 w-full top-0 z-50 overflow-x-hidden transition-all duration-500">
         <div className="flex items-center justify-between lg:px-4">
           <div>
-            <h1 className="text-white text-4xl font-serif">Link's <span className="text-[#9BABB8]">Institute</span></h1>
+            <h1 className="text-white text-3xl lg:text-4xl font-serif">Link's <span className="text-[#9BABB8]">Institute</span></h1>
           </div>
           <div className="mt-1 lg:flex items-center justify-center hidden pb-2 lg:pb-0 me-8 lg:me-0">
             <ul className="flex gap-5 justify-center text-lg items-center ">
@@ -49,16 +49,16 @@ function Navbar() {
                   About
                 </Link>
               </li>
-              {/* <li>
+              <li>
                 <Link to="/courses" className="text-white cursor-pointer hover:text-[#FBCB1D]">
                   Courses
                 </Link>
               </li>
               <li>
-                <Link to="/teacher" className="text-white cursor-pointer hover:text-[#FBCB1D]">
+                {/* <Link to="/teacher" className="text-white cursor-pointer hover:text-[#FBCB1D]">
                   Teacher
-                </Link>
-              </li> */}
+                </Link> */}
+              </li>
               <li>
                 <Link to="/contact" className="text-white cursor-pointer hover:text-[#FBCB1D]">
                   Contact
@@ -95,10 +95,10 @@ function Navbar() {
             <li onClick={handleMenuToggle} className="text-white mt-2 ms-4 cursor-pointer hover:text-[#FBCB1D]">
               <Link to="/about">About</Link>
             </li>
-            {/* <li onClick={handleMenuToggle} className="text-white mt-2 ms-4 cursor-pointer hover:text-[#FBCB1D]">
+            <li onClick={handleMenuToggle} className="text-white mt-2 ms-4 cursor-pointer hover:text-[#FBCB1D]">
               <Link to="/courses">Courses</Link>
             </li>
-            <li onClick={handleMenuToggle} className="text-white mt-2 ms-4 cursor-pointer hover:text-[#FBCB1D]">
+            {/* <li onClick={handleMenuToggle} className="text-white mt-2 ms-4 cursor-pointer hover:text-[#FBCB1D]">
               <Link to="/teacher">Teacher</Link>
             </li> */}
             <li onClick={handleMenuToggle} className="text-white mt-2 ms-4 cursor-pointer hover:text-[#FBCB1D]">
