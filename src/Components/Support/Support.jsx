@@ -17,7 +17,7 @@ function Support() {
                             are passionate about education.</p>
                     </div>
                 </div>
-                <div className='w-[370px] rounded h-[100px] bg-[#E7E5FD] flex justify-evenly items-center gap-5'>
+                <div className='w-[320px] rounded h-[110px] bg-[#E7E5FD] flex justify-evenly items-center gap-5'>
                     <div className='bg-[#B0ACFF] rounded h-[60px] w-[120px] ms-2 flex justify-center items-center'>
                         <FaDollarSign className='text-white text-4xl' />
                     </div>
@@ -27,7 +27,7 @@ function Support() {
 </p>
                     </div>
                 </div>
-                <div className='w-[370px] rounded h-[100px] bg-[#FFDEE9] flex justify-evenly items-center gap-5'>
+                <div className='w-[320px] rounded h-[110px] bg-[#FFDEE9] flex justify-evenly items-center gap-5'>
                     <div className='bg-[#FF80AB] rounded h-[60px] w-[120px] ms-2 flex justify-center items-center'>
                         <FaRegUserCircle className='text-white text-4xl' />
                     </div>
@@ -38,8 +38,8 @@ range of tutoring programs. </p>
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col gap-10 lg:flex-row lg:gap-0 justify-evenly items-center mt-10'>
-                <div className='w-[370px] rounded h-[100px] bg-[#FFDEE9] flex justify-evenly items-center gap-5'>
+            <div className='flex flex-col gap-10 lg:flex-row lg:gap-0 justify-evenly items-center mt-10 px-5'>
+                <div className='w-[320px] rounded h-[110px] bg-[#FFDEE9] flex justify-evenly items-center gap-5'>
                     <div className='bg-[#FF80AB] rounded h-[60px] w-[120px] ms-2 flex justify-center items-center'>
                         <FaRegUserCircle className='text-white text-4xl' />
                     </div>
@@ -49,7 +49,7 @@ range of tutoring programs. </p>
 enhance the learning experience.</p>
                     </div>
                 </div>
-                <div className='w-[370px] rounded h-[100px] bg-[#FDF5E0] flex justify-evenly items-center gap-5'>
+                <div className='w-[320px] rounded h-[110px] bg-[#FDF5E0] flex justify-evenly items-center gap-5'>
                     <div className='bg-[#FECC49] rounded h-[60px] w-[120px] ms-2 flex justify-center items-center'>
                         <MdDesignServices className='text-white text-4xl' />
                     </div>
@@ -59,7 +59,7 @@ enhance the learning experience.</p>
 to achieve common goals, and we celebrate individual and collective successes.</p>
                     </div>
                 </div>
-                <div className='w-[370px] rounded h-[100px] bg-[#FDF5E0] flex justify-evenly items-center gap-5'>
+                <div className='w-[320px] rounded h-[110px] bg-[#FDF5E0] flex justify-evenly items-center gap-5'>
                     <div className='bg-[#FECC49] rounded h-[60px] w-[120px] ms-2 flex justify-center items-center'>
                         <FaDollarSign className='text-white text-4xl' />
                     </div>

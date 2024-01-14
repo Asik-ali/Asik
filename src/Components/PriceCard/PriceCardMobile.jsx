@@ -8,7 +8,6 @@ export default () => {
             features: [
                 "One To One Sessions",
                 "Limited Seats",
-
             ],
         },
         {
@@ -114,21 +113,19 @@ export default () => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const nextSlide = () => {
-        setCurrentIndex((prevIndex) => (prevIndex + 3) % plans.length);
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % plans.length);
     };
 
     const prevSlide = () => {
         setCurrentIndex((prevIndex) =>
-            prevIndex === 0
-                ? plans.length - (plans.length % 3 || 3)
-                : prevIndex - 3
+            prevIndex === 0 ? plans.length - 1 : prevIndex - 1
         );
     };
 
-    const visiblePlans = plans.slice(currentIndex, currentIndex + 3);
+    const visiblePlans = plans.slice(currentIndex, currentIndex + 1);
 
     return (
-        <section className='py-14 relative hidden lg:flex'>
+        <section className='py-14 relative flex lg:hidden'>
             <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
                 <div className='relative max-w-xl mx-auto sm:text-center'>
                     <h3 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
@@ -137,7 +134,7 @@ export default () => {
                 </div>
 
                 {/* Laptop View */}
-                <div className='mt-16 space-y-6 justify-center gap-6 sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 hidden lg:flex'>
+                <div className='mt-16 space-y-6 justify-center gap-6 sm:grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 hidden lg:flex'>
                     {visiblePlans.map((item, idx) => (
                         <div key={idx} className='relative flex-1 flex items-stretch flex-col p-8 rounded-xl border-2'>
                             <div>
@@ -210,7 +207,7 @@ export default () => {
                             </div>
                         </div>
                     ))}
-                    <div className=' justify-between flex lg:hidden'>
+                    <div className='justify-between flex lg:hidden'>
                         <button
                             onClick={prevSlide}
                             className='px-3 py-2 rounded-lg font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'
@@ -227,7 +224,7 @@ export default () => {
                 </div>
 
                 {/* Laptop View Navigation */}
-                <div className=' justify-between lg:flex hidden'>
+                <div className='justify-between lg:flex hidden'>
                     <button
                         onClick={prevSlide}
                         className='px-3 py-2 rounded-lg absolute top-[55%] left-0 md:left-[2%] font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'
@@ -241,23 +238,6 @@ export default () => {
                         Next
                     </button>
                 </div>
-                {/* <div className='flex justify-between lg:hidden mt-5'>
-                    <button
-                        onClick={prevSlide}
-                        className='px-3 py-2 rounded-lg  md:left-[2%] font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'
-                    >
-                        Previou
-                    </button>
-                    <button
-                        onClick={nextSlide}
-                        className='px-3 py-2 rounded-lg   md:right-[5%] font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'
-                    >
-                        Next
-                    </button>
-                </div> */}
-
-
-
             </div>
         </section>
     );

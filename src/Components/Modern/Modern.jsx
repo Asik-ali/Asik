@@ -33,12 +33,12 @@ tutoring options and any specific requirements you may have.</p>
     </div>
    </div>
 
-</div>
+            </div>
 
 
 
-    </div>
-  )
+        </div>
+    )
 }
 
 export default Modern
