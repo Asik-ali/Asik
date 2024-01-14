@@ -1,73 +1,4 @@
-<<<<<<< HEAD
-export default () => {
 
-    const footerNavs = [
-        {
-            label: "Company",
-            items: [
-                {
-                 
-                    name: 'About'
-                },
-                {
-                 
-                    name: 'Blog'
-                },
-                {
-                 
-                    name: 'Team'
-                },
-                {
-                 
-                    name: 'Careers'
-                },
-            ],
-        },
-        {
-            label: "Resources",
-            items: [
-                {
-                 
-                    name: 'contact'
-                },
-                {
-                 
-                    name: 'Support'
-                },
-                {
-                 
-                    name: 'Docs'
-                },
-                {
-                 
-                    name: 'Pricing'
-                },
-            ],
-        },
-        {
-            label: "About",
-            items: [
-                {
-                 
-                    name: 'Terms'
-                },
-                {
-                 
-                    name: 'License'
-                },
-                {
-                 
-                    name: 'Privacy'
-                },
-                {
-                 
-                    name: 'About US'
-                },
-            ]
-        }
-    ]
-
-=======
 import React from 'react'
 import logo from "../../assets/Links Institute.jpg"
 import { FaFacebook } from "react-icons/fa";
@@ -76,9 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { TiChevronRightOutline } from "react-icons/ti";
 import { FaLinkedin } from "react-icons/fa";
 import svg1 from "../../assets/bg.png"
-function Footer() {
->>>>>>> 83e110f92584d1a20a3254293e930f6de85c2d36
-    return (
+function Footer() {    return (
         <footer className='bg-[#142F58] lg:pt-40 pb-10 pt-10 mt-5' style={{ backgroundImage: `url(${svg1})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <div className='flex justify-around lg:flex-row flex-col ps-5 gap-6 lg:gap-0 lg:ps-0 '>
                 <div>
@@ -118,7 +47,7 @@ function Footer() {
     )
 }
 
-<<<<<<< HEAD
+
 
 
 
@@ -222,6 +151,5 @@ function Footer() {
 //     )
 // }
 // export default Footer
-=======
+
 export default Footer
->>>>>>> 83e110f92584d1a20a3254293e930f6de85c2d36

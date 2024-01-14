@@ -71,10 +71,10 @@ const SliderComponent = () => {
   };
 
   return (
-    <section className="  bg-[#F8F3EF] pt-10 py-10 overflow-x-hidden">
+    <section className="  bg-white pt-10 py-10 overflow-x-hidden">
       <div className="mx-auto px-4 md:px-8">
         <h1 className='text-2xl md:text-4xl text-center lg:mb-12 md:mb-12 mb-4 font-semibold '>
-          Latest New And Updates
+          Latest News And  <span className='text-[#E7A93C]'>Updates</span>
         </h1>
         <Slider {...settings}>
           {posts.map((item, key) => (

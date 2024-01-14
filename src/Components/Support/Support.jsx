@@ -4,12 +4,12 @@ import { FaDollarSign } from "react-icons/fa";
 import { FaRegUserCircle } from "react-icons/fa";
 function Support() {
     return (
-        <div className='bg-[#FAFAFC] pb-10 overflow-x-hidden'>
-            <h1 className='pt-16 mx-auto text-4xl font-semibold lg:w-[450px] text-center'>We Have What It Takes To Support Education</h1>
+        <div className='bg-white pb-10 overflow-x-hidden'>
+            <h1 className='pt-16 mx-auto text-4xl font-semibold lg:w-[450px] text-center'><span className='text-[#E7A93C]'>BrightFuture </span> Champions</h1>
             <div className='flex flex-col gap-10 lg:flex-row lg:gap-0 justify-evenly items-center  mt-10'>
-                <div className='w-[370px] rounded h-[100px] bg-[#E7E5FD] flex justify-evenly items-center gap-5'>
-                    <div className='bg-[#B0ACFF] rounded h-[60px] w-[120px] ms-2 flex justify-center items-center'>
-                        <MdDesignServices className='text-white text-4xl' />
+                <div className='w-[370px] rounded-xl border-gray-200 h-[100px] bg-white border-2  flex justify-evenly items-center gap-5'>
+                    <div className='bg-[#FECC49] rounded-xl h-[50px] w-[120px] ms-2 flex justify-center items-center'>
+                        <MdDesignServices className='text-white text-3xl' />
                     </div>
                     <div>
                         <h5 className='font-semibold'>Qualified Tutors</h5>
