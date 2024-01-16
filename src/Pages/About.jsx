@@ -19,20 +19,20 @@ const About = () => {
         <AboutVision/>
          */}
 
-      <div className="bg-[#365486] flex-col lg:flex-row justify-center gap-5 lg:gap-0 pt-10 lg:pt-0  overflow-hidden flex items-center lg:justify-around">
+      <div className="bg-[#FFE39D] flex-col lg:flex-row justify-center gap-5 lg:gap-0 pt-10 lg:pt-0  overflow-hidden flex items-center lg:justify-around">
         <div className="flex flex-col gap-5">
           <div>
-            <h1 className="font-Roboto font-bold text-2xl text-center lg:text-5xl lg:text-left text-white   lg:w-[350px]">
+            <h1 className="font-Roboto font-bold text-2xl text-center lg:text-5xl lg:text-left    lg:w-[350px]">
               It's Now Easier to Get Quality Education
             </h1>
           </div>
-          <p className="text-white mt-4 px-4 text-center lg:px-0 lg:text-left   lg:w-[350px]">
+          <p className=" mt-4 px-4 text-center lg:px-0 lg:text-left   lg:w-[350px]">
           we believe in the transformative power of education.
           </p>
           <div className="flex flex-col lg:flex-row items-center gap-4">
             <input
               type="Email"
-              className="bg-[#EFEFFB] border-none outline-none rounded py-2 px-7"
+              className="bg-[#EFEFFB] bg-transparent  border-2 border-black text-white outline-none rounded py-2 px-7"
               placeholder="Type Your Email"
             />
             <div>
@@ -49,8 +49,8 @@ const About = () => {
           />
         </div>
       </div>
-
-      <div className=' bg-[#EDEDF9] flex flex-col lg:flex-row gap-7 lg:gap-0 pb-10 pt-10 justify-evenly items-center'>
+      {/* // bg-[#EDEDF9] */}
+      <div className='  flex flex-col lg:flex-row gap-7 lg:gap-0 pb-10 pt-10 justify-evenly items-center'>
 
         <div className='flex flex-col gap-7 lg:mt-20 lg:ps-0 ps-2 mt-10'>
           <h1 className='lg:text-4xl text-xl font-semibold  lg:w-[650px] text-center lg:text-start'>LINK’S-Education unfolds.</h1>
@@ -65,7 +65,7 @@ const About = () => {
       </div>
 
 
-      <div className=' bg-[#FAFAFC] flex flex-col lg:flex-row gap-7 lg:gap-0 pb-10 pt-10 justify-evenly items-center'>
+      <div className=' bg-[#FFE39D] flex flex-col lg:flex-row gap-7 lg:gap-0 pb-10 pt-10 justify-evenly items-center'>
         
 
         <div className='flex flex-col gap-7 lg:mt-0 lg:ps-0 ps-2 mt-10'>
@@ -79,7 +79,7 @@ const About = () => {
       </div>
 
 
-      <div className=' bg-[#DCF2F1] flex flex-col lg:flex-row gap-7 lg:gap-0 pb-10 pt-10 justify-evenly items-center'>
+      <div className='  flex flex-col lg:flex-row gap-7 lg:gap-0 pb-10 pt-10 justify-evenly items-center'>
 
       <div className="">
           <img className="w-[500px] rounded" src={a2} lt="" />
@@ -94,7 +94,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className=' bg-[#FAFAFC] flex flex-col lg:flex-row gap-7 lg:gap-0 pb-10 pt-10 justify-evenly items-center'>
+      <div className=' bg-[#FFE39D] flex flex-col lg:flex-row gap-7 lg:gap-0 pb-10 pt-10 justify-evenly items-center'>
        
 
         <div className='flex flex-col gap-7 lg:mt-0 lg:ps-0 ps-2 mt-10'>
@@ -107,7 +107,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className='bg-[#DCF2F1] flex flex-col lg:flex-row gap-7 lg:gap-0 pb-10 pt-10 justify-evenly items-center'>
+      <div className=' flex flex-col lg:flex-row gap-7 lg:gap-0 pb-10 pt-10 justify-evenly items-center'>
       <div>
           <img className="w-[500px] rounded" src={a4} lt="" />
         </div>
